@@ -1,6 +1,7 @@
 .body{
   font-size: 14px;
   font-family:'Roboto', sans-serif ;
+  background-color: rgb(29, 25, 25);
 }
 
 .sidenav {
@@ -34,7 +35,7 @@
   /* font-family: 'Roboto', sans-serif; */
 }
 .sidenav_div1 a:hover {
-  color: #e02525;
+  color:#5280AF;
 }
 .maincontain {
   margin-left: 120px;
@@ -55,8 +56,8 @@
 	top: 21px;
 	left: 50%;
 	display: block;
-	width: 250px;
-	height: 29px;
+	width: 215px;
+	height: 25px;
 	transform: translateX(-50%);
 	background: url(../img/WP.svg) no-repeat center center;
 	background-size: contain;

@@ -1,29 +1,29 @@
 .body{
   font-size: 14px;
   font-family:'Roboto', sans-serif ;
-  background-color: black;
 }
 
 .sidenav {
   height: 100%;
-  width: 120px;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  /* background-color: #111; */
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 50px;
   float: left;
 }
-.sidenav div{
-  background-image: url("../img/Rainbow.svg");
+.sidenav_div1{
+  background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  width: 90px;
 }
-.sidenav a {
+.sidenav_div1 a{
   padding: 8px 8px 8px 15px;
   text-decoration: none;
   /* font-size: 14px; */
@@ -33,8 +33,8 @@
   transition: 0.3s;
   /* font-family: 'Roboto', sans-serif; */
 }
-.sidenav a:hover {
-  color: #f1f1f1;
+.sidenav_div1 a:hover {
+  color: #e02525;
 }
 .maincontain {
   margin-left: 120px;

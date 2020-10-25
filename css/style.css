@@ -6,7 +6,7 @@
 
 .sidenav {
   height: 100%;
-  width: 100px;
+  width: 90px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -37,6 +37,7 @@
 .sidenav_div1 a:hover {
   color:#5280AF;
 }
+
 .headerWrapper {
 	position: fixed;
 	top: 0;
@@ -47,7 +48,6 @@
 	background-size: cover;
 	z-index: 300
 }
-
 .headerLogo {
 	position: absolute;
 	top: 21px;
@@ -81,17 +81,12 @@
 	-webkit-animation: rainbowMove 4s ease infinite;
 	animation: rainbowMove 4s ease infinite
 }
-
 .headerLogo:hover:before {
 	background-position: 100% 0
 }
 .maincontain {
-  margin-left: 120px;
+  margin-left: 90px;
   margin-top: 60px;
   background-color: blanchedalmond;
 }
   
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}

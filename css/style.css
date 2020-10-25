@@ -24,20 +24,18 @@
   top: 0;
   left: 0;
   overflow-x: hidden;
-  transition: 0.5s;
   padding-top: 50px;
   float: left; 
   background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  width: 110px;
 }
 .sidenav_div1 a{
-  padding: 8px 8px 8px 30px;
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
   color: transparent;
-  /* display: block; */
+  display: block;
   transition: 0.8s;
   letter-spacing: 0.3px;
 }
@@ -100,6 +98,9 @@
 /* @media(max-width: 600px){
 	.sidenav{
 		display: none;
+	}
+	.sidenav_small{
+		display: block;
 	}
 	.maincontain{
 		margin-left: 0;

@@ -91,11 +91,11 @@
   background-color: blanchedalmond;
 }
 
-@media(max-width: 600px){
+/* @media(max-width: 600px){
 	.sidenav{
 		display: none;
 	}
 	.maincontain{
 		margin-left: 0;
 	}
-}
+} */

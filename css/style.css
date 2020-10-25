@@ -21,7 +21,7 @@
   background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
   background-clip: text;
   -webkit-background-clip: text;
-  /* color: transparent; */
+  color: transparent;
   width: 110px;
 }
 .sidenav_div1 a{
@@ -90,4 +90,12 @@
   margin-top: 60px;
   background-color: blanchedalmond;
 }
-  
+
+@media(max-width: 600px){
+	.sidenav{
+		display: none;
+	}
+	.maincontain{
+		margin-left: 0;
+	}
+}

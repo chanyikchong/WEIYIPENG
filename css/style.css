@@ -95,7 +95,7 @@
 .maincontain {
   margin-left: 110px;
   margin-top: 60px;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 }
 .bannerimage{
     width:75%;
@@ -104,8 +104,8 @@
     height:100%; */
     margin: 0px auto;
     background-size:100% 100%;
-    color:#fff;
-    box-shadow: 0 0 12px 2px  #142732;
+    color:rgb(253, 232, 232);
+    box-shadow: 0 0 12px 2px  #e5e9eb;
 }
 .box{
     /* width:750px;
@@ -116,7 +116,7 @@
     overflow: hidden;
 }
 .img-g{
-    width:700%;
+    width:900%;
     height:100%;
     position:relative;
 }
@@ -124,7 +124,8 @@
     float:left;
     /* width:750px;
     height:500px; */
-    width:14.285%;
+	/* width:14.285%; */
+	width: 11.11%;
     height:100%;
     background-size: cover;
 }

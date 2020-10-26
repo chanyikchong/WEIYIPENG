@@ -2,7 +2,7 @@ $(function () {
   // 实现自动播放
   var p=document.getElementsByClassName('img-g')[0];
   var img=p.getElementsByTagName("img")
-  var button=document.querySelectorAll('.button-g span')
+  // var button=document.querySelectorAll('.button-g span')
   // 设置3秒播放
   window.timer=setInterval(move,5000);
   // 轮播设置

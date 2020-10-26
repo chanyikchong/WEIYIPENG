@@ -59,3 +59,9 @@ $(function () {
       window.timer=setInterval(move,5000);
   }
 });
+
+function get_height(){
+  console.log(screen.width)
+  console.log(screen.height)
+}
+// setInterval(get_height,5000)

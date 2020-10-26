@@ -64,4 +64,4 @@ function get_height(){
   console.log(screen.width)
   console.log(screen.height)
 }
-// setInterval(get_height,5000)
+setInterval(get_height,5000)

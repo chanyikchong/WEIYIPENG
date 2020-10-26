@@ -1,7 +1,10 @@
-.body{
+html, body{
   font-size: 14px;
   font-family:'Roboto', sans-serif ;
   background-color: rgb(29, 25, 25);
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* .sidenav {
@@ -17,6 +20,7 @@
   float: left;
 } */
 .sidenav_div1{
+  margin: auto;
   height: 100%;
   width: 110px;
   position: fixed;
@@ -93,19 +97,26 @@
 	background-position: 100% 0
 }
 .maincontain {
-  margin-left: 110px;
-  margin-top: 60px;
-  /* background-color: blanchedalmond; */
+  /* margin-left: 110px; */
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+
 }
 .bannerimage{
+	position: absolute;
+	/* margin: 25% auto; */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
     width:75%;
     /* height:42%; */
     /* width:100%x;
     height:100%; */
-    margin: 0px auto;
     background-size:100% 100%;
-    color:rgb(253, 232, 232);
-    box-shadow: 0 0 12px 2px  #e5e9eb;
+    /* color:rgb(253, 232, 232);
+	box-shadow: 0 0 12px 2px  #656768; */
+	border-radius: 5px;
 }
 .box{
     /* width:750px;
@@ -113,7 +124,8 @@
     width:100%;
     /* height:100%; */
     margin:0px auto;
-    overflow: hidden;
+	overflow: hidden;
+	border-radius: 5px;
 }
 .img-g{
     width:900%;
@@ -121,7 +133,8 @@
     position:relative;
 }
 .img-g img{
-    float:left;
+	float:left;
+	
     /* width:750px;
     height:500px; */
 	/* width:14.285%; */

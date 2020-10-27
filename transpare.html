@@ -6,28 +6,45 @@
     <title>Trans</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
-        .try{
-            width: 100px;
+        .maincontain {
+  /* margin-left: 110px; */
+            position: relative;
+            min-height: 100%;
+            width: 100%;
+            /* float: left; */
         }
-        .try a{
-            padding: 8px 8px 8px 30px;
-            text-decoration: none;
-            background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            transition: 0.8s;
-            display: block;
+        .bannerimage{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* margin: auto; */
+            width:75%;
+            height: 42%;
+            transform: translate(-50%,-50%);
+            background-size:100% 100%;
+            /* color:rgb(253, 232, 232);
+            box-shadow: 0 0 12px 2px  #656768; */
+            border-radius: 5px;
         }
-        .try a:hover{
-            color:#5280AF;
+        .bannerimage img{
+            position: absolute;
+            float:left;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-size: cover;
+            border-radius: 5px;
+            opacity: 1;
         }
     </style>
 </head>
 <body >
-    <div class="try">
-        <a href="./index.html">hahahaha</a>
-        <a href="#">hello</a>
+    <div class="maincontain">
+        <div class="bannerimage">
+            <img src="./img/1.jpg" alt="1"> 
+            <img src="./img/2.jpg" alt="2">
+            <img src="./img/3.jpg" alt="3">
+        </div>
     </div>
 </body>
 </html>

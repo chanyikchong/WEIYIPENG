@@ -9,7 +9,7 @@ html, body{
 .sidenav_div1{
   margin: auto;
   width: 110px;
-  height: 100%-3px;
+  height: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -48,6 +48,7 @@ html, body{
 }
 .headerLogo {
 	position: absolute;
+	z-index: 1;
 	top: 21px;
 	left: 50%;
 	display: block;

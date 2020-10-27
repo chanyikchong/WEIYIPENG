@@ -5,46 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trans</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/func.js"></script>
     <style>
-        .maincontain {
-  /* margin-left: 110px; */
-            position: relative;
-            min-height: 100%;
-            width: 100%;
-            /* float: left; */
+        body {
+            margin: 0;
         }
-        .bannerimage{
+        
+        .gal img{
             position: absolute;
+            /* float:left; */
             top: 50%;
             left: 50%;
-            /* margin: auto; */
-            width:75%;
-            height: 42%;
-            transform: translate(-50%,-50%);
-            background-size:100% 100%;
-            /* color:rgb(253, 232, 232);
-            box-shadow: 0 0 12px 2px  #656768; */
-            border-radius: 5px;
-        }
-        .bannerimage img{
-            position: absolute;
-            float:left;
-            top: 0;
-            left: 0;
-            width: 100%;
+            transform: translate(-50%, -50%);
+            width: 64%;
             background-size: cover;
             border-radius: 5px;
+            opacity: 0; 
+            transition: opacity 3s linear;
+        }
+        img.active{
             opacity: 1;
         }
     </style>
 </head>
 <body >
-    <div class="maincontain">
-        <div class="bannerimage">
-            <img src="./img/1.jpg" alt="1"> 
+        <div id="image_gallery" class="gal">
+            <img src="./img/1.jpg" class="active" alt="1"> 
             <img src="./img/2.jpg" alt="2">
             <img src="./img/3.jpg" alt="3">
+            <img src="./img/4.jpg" alt="4">
+            <img src="./img/5.jpg" alt="5">
+            <img src="./img/6.jpg" alt="6">
+            <img src="./img/7.jpg" alt="7">
+            <img src="./img/8.jpg" alt="8">
         </div>
-    </div>
 </body>
 </html>

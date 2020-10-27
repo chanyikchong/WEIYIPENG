@@ -61,10 +61,9 @@
 // });
 
 window.onload=function slideshow() {
-    var block=document.getElementById("image_gallery")
-    var imgs=block.getElementsByTagName("img")
-
-    current=0; 
+    var container=document.getElementById("image_gallery")
+    var imgs=container.getElementsByTagName("img")
+    current=0;
   
     function slideOff() {
         imgs[current].className=""; 
@@ -84,10 +83,11 @@ window.onload=function slideshow() {
 
     var slideon=setInterval(changeSlide,6000);
   
-    block.onmouseover=function () {
+    container.onmouseover=function () {
         clearInterval(slideon); 
     }
-    block.onmouseout=function () {
+    container.onmouseout=function () {
         slideon=setInterval(changeSlide,6000); 
     }
+    
 }

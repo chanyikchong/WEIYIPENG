@@ -8,14 +8,14 @@ html, body{
 }
 .sidenav_div1{
   margin: auto;
-  width: 120px;
+  width: 22%;
   height: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 50px;
+  padding-top: 60px;
   float: left; 
   /* background-color: rgb(29, 25, 25); */
 
@@ -24,7 +24,7 @@ html, body{
   background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
   background-clip: text;
   -webkit-background-clip: text;
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 25%;
   text-decoration: none;
   color: transparent;
   display: block;

@@ -34,14 +34,12 @@ html, body{
 .sidenav_div1 a:hover {
   color:#5280AF;
 }
-
 .headerWrapper {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 60px;
-	/* background: url(/wp/wp-content/themes/coldplay2019/images/textureDark.jpg) no-repeat center center; */
 	background-size: cover;
 	background-color: rgb(29, 25, 25);
 	z-index: 300
@@ -91,7 +89,6 @@ html, body{
 	width: 100%; 
 	height: 3px;
 	z-index: 999;
-	/* color: transparent; */
 	background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
 }
 .maincontain {
@@ -105,7 +102,6 @@ html, body{
 	position: absolute;
 	/* margin: auto; */
 	width:64%;
-	/* height: 36%; */
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
@@ -115,18 +111,6 @@ html, body{
 	border-radius: 5px;
 	background-color: transparent;
 }
-/* .box{
-	width:100%;
-	height: 100%;
-    margin:0px auto;
-	overflow: hidden;
-	border-radius: 5px;
-} */
-/* .img-g{
-    width:900%;
-    height:100%;
-    position:relative;
-} */
 .bannerimage img{
 	position: absolute;
 	float:left;

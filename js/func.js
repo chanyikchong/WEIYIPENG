@@ -61,35 +61,33 @@
 // });
 
 window.onload=function slideshow() {
-  var block=document.getElementById("image_gallery")
-  var imgs=block.getElementsByTagName("img")
+    var block=document.getElementById("image_gallery")
+    var imgs=block.getElementsByTagName("img")
+
+    current=0; 
   
-  current=0; //current为当前活跃的图片编号
+    function slideOff() {
+        imgs[current].className=""; 
+    }
+
+    function slideOn() {
+        imgs[current].className="active";
+    }
   
-  function slideOff() {
-      imgs[current].className=""; //图片淡出
+    function changeSlide() { 
+        slideOff();
+        current++;
+        if(current>=imgs.length) current=0;
+        slideOn();
+    }
   
-  }
-  function slideOn() {
-      imgs[current].className="active"; //图片淡入
+
+    var slideon=setInterval(changeSlide,6000);
   
-  }
-  
-  function changeSlide() { //切换图片的函数
-      slideOff();
-      current++; //自增1
-      if(current>=imgs.length) current=0;
-      slideOn();
-  }
-  
-  //每2s调用changeSlide函数进行图片轮播
-  var slideon=setInterval(changeSlide,6000);
-  
-  block.onmouseover=function () {
-      clearInterval(slideon); //当鼠标移入时清除轮播事件
-  }
-  block.onmouseout=function () {
-      slideon=setInterval(changeSlide,6000); //当鼠标移出时重新开始轮播事件
-  }
+    block.onmouseover=function () {
+        clearInterval(slideon); 
+    }
+    block.onmouseout=function () {
+        slideon=setInterval(changeSlide,6000); 
+    }
 }
-console.log(document.getElementsByClassName('bannerimage'))

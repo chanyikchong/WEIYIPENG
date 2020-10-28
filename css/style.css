@@ -109,7 +109,7 @@ html, body{
 	width: 215px;
 	height: 25px;
 	background-color: tomato;
-	background: url(../img/WP.svg);
+	background: url(../img/Left-Right.svg);
 	transform: translate(-50%,0);
 }
 .headerLogo {

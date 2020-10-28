@@ -60,6 +60,14 @@
 //   }
 // });
 
+function openNav() {
+    document.getElementById("mySidenav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.height = "0";
+  }
+
 window.onload=function slideshow() {
     var container=document.getElementById("image_gallery")
     var imgs=container.getElementsByTagName("img")

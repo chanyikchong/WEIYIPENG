@@ -52,7 +52,7 @@ html, body{
 	background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
 	background-clip: text;
 	-webkit-background-clip: text;
-	padding: 8px 8px 8px 15px;
+	padding: 0px 8px 4px 5px;
 	text-decoration: none;
 	color: transparent;
 	display: block;

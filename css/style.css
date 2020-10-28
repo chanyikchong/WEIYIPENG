@@ -45,7 +45,7 @@ html, body{
 	background-color: rgb(29, 25, 25);
 	overflow-y: hidden;
 	overflow-x: hidden;
-	transition: 0.5s;
+	/* transition: 0.5s; */
 	/* padding-top: 40px; */
 }
 .small_sidenav a {
@@ -72,11 +72,11 @@ html, body{
 }
 .drop_menu{
 	position: absolute;
-	top: 0px;
+	top: 5px;
 	background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6,#e36ca5);
 	background-clip: text;
 	-webkit-background-clip: text;
-	font-size:20px;
+	font-size:15px;
 	cursor:pointer;
 	color: transparent;
 	z-index: 2;
@@ -218,6 +218,7 @@ html, body{
 	.image-container{
 		width: 100%;
 	}
+}
 @media(min-width: 600px){
 	.small_menu{
 		display: none;

@@ -61,7 +61,7 @@
 // });
 
 function openNav() {
-    document.getElementById("mySidenav").style.height = "100%";
+    document.getElementById("mySidenav").style.height = "200px";
   }
   
   function closeNav() {

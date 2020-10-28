@@ -76,7 +76,7 @@ html, body{
 	background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6,#e36ca5);
 	background-clip: text;
 	-webkit-background-clip: text;
-	font-size:25px;
+	font-size:20px;
 	cursor:pointer;
 	color: transparent;
 	z-index: 2;

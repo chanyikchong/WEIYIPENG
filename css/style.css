@@ -215,7 +215,9 @@ html, body{
 	.big_menu{
 		display: none;
 	}
-}
+	.image-container{
+		width: 100%;
+	}
 @media(min-width: 600px){
 	.small_menu{
 		display: none;

@@ -10,7 +10,7 @@ html, body{
   margin: auto;
   width: 22%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   z-index:1;
   top: 0;
   left: 0;
@@ -42,7 +42,7 @@ html, body{
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgb(29, 25, 25);
+	/* background-color: rgb(29, 25, 25); */
 	overflow-y: hidden;
 	overflow-x: hidden;
 	/* transition: 0.5s; */
@@ -72,11 +72,12 @@ html, body{
 }
 .drop_menu{
 	position: absolute;
-	top: 5px;
+	top: 15px;
+	left: 20px;
 	background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6,#e36ca5);
 	background-clip: text;
 	-webkit-background-clip: text;
-	font-size:15px;
+	font-size:5px;
 	cursor:pointer;
 	color: transparent;
 	z-index: 2;

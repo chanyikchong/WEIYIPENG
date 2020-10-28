@@ -61,11 +61,13 @@
 // });
 
 function openNav() {
-    document.getElementById("mySidenav").style.height = "200px";
+    document.getElementById("mySidenav").style.height = "140px";
+    document.getElementById("menu_bar").style.display = "none"
   }
   
   function closeNav() {
     document.getElementById("mySidenav").style.height = "0";
+    document.getElementById("menu_bar").style.display = "block"
   }
 
 window.onload=function slideshow() {

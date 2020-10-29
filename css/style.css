@@ -171,6 +171,7 @@ html, body{
 }
 
 .small_headerWrapper {
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -260,7 +261,7 @@ html, body{
 .image-container img.active{
 	opacity: 1;
 }
-@media(max-width: 600px){
+/* @media(max-width: 600px){
 	.big_menu{
 		display: none;
 	}
@@ -272,4 +273,4 @@ html, body{
 	.small_menu{
 		display: none;
 	}
-}
+} */

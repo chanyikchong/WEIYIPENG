@@ -19,7 +19,7 @@ html, body{
   float: left; 
 }
 .sidenav_div1 a{
-  background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6,#e36ca5);
+  background: linear-gradient(90deg, #e82829, #e36ca5,#4a9dd6 ,#4a9dd6);
   background-clip: text;
   -webkit-background-clip: text;
   padding: 8px 8px 8px 8px;
@@ -47,7 +47,7 @@ html, body{
 	/* padding-top: 40px; */
 }
 .small_sidenav a {
-	background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6, #e36ca5);
+	background: linear-gradient(90deg, #e82829, #e36ca5,#1b95e6 ,#4a9dd6);
 	background-clip: text;
 	-webkit-background-clip: text;
 	padding: 0px 8px 4px 5px;

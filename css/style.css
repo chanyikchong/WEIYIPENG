@@ -38,9 +38,8 @@ html, body{
 	height: 0px;
 	position: fixed;
 	z-index: 3;
-	top: 0;
-	left: 0;
-	/* background-color: rgb(29, 25, 25); */
+	top: 20px;
+	left: 15px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	/* transition: 0.5s; */
@@ -70,8 +69,8 @@ html, body{
 }
 .drop_menu{
 	position: absolute;
-	top: 15px;
-	left: 20px;
+	top: 25px;
+	left: 35px;
 	background: linear-gradient(90deg, #e82829, #e36ca5, #4a9dd6);
 	background-clip: text;
 	-webkit-background-clip: text;

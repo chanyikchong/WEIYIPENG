@@ -102,6 +102,13 @@ html, body{
 	/* background-color: rgb(29, 25, 25); */
 	z-index: 1;
 }
+.small_title_img{
+	position: absolute;
+	top: 8px;
+	left: 50%;
+	width: 215px;
+	transform: translateX(-50%);
+}
 .small_headerLogo{
 	position: absolute;
 	top: 8px;
@@ -109,7 +116,7 @@ html, body{
 	width: 215px;
 	height: 25px;
 	background-color: tomato;
-	background: url(../img/Left-Right.svg)no-repeat center center;
+	background: url(../img/WP.png)no-repeat center center;
 	transform: translate(-50%,0);
 }
 .headerLogo {
@@ -123,11 +130,15 @@ html, body{
 	transform: translateX(-50%);
 	background: url(../img/WP.svg) no-repeat center center;
 	background-size: contain;
+	mask-image:url(../img/WP.svg) ;
+	mask-repeat: no-repeat;
+	mask-position: center center;
 	-webkit-mask-image: url(../img/WP.svg);
 	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
 	-webkit-mask-position: center center;
-	mask-position: center center;
+	-moz-mask-image: url(../img/WP.svg);
+	-moz-mask-repeat: no-repeat;
+	-moz-mask-position: center center;
 	text-indent: -9999px
 }
 
@@ -143,8 +154,9 @@ html, body{
 	background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
 	background-size: 200% 100%;
 	background-position: 0 0;
+	animation: rainbowMove 4s ease infinite;
 	-webkit-animation: rainbowMove 4s ease infinite;
-	animation: rainbowMove 4s ease infinite
+	-moz-animation: rainbowMove 4s ease infinite
 }
 .headerLogo:hover:before {
 	background-position: 100% 0

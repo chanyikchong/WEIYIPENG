@@ -129,7 +129,7 @@ window.onload = function change_title(){
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
         document.getElementById('logo').className = "headerLogo_fire";
     }
-    else if (check_browser() === 'Chrome'){
+    else if (check_browser() === 'Chrome' || check_browser() === "Edge"){
         document.getElementById('logo').className = "headerLogo_chrom";
     }
 }

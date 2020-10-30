@@ -1,40 +1,51 @@
+var artwork_btn = document.getElementById("artwork");
+var graphic_btn = document.getElementById("graphics");
+
 function openNav() {
     document.getElementById("mySidenav").style.height = "140px";
     document.getElementById("menu_bar").style.display = "none"
   }
   
-  function closeNav() {
+function closeNav() {
     document.getElementById("mySidenav").style.height = "0";
     document.getElementById("menu_bar").style.display = "block"
-  }
+}
+
+function open_artwork(){
+    artwork_btn.className = "active";
+    graphic_btn.className = "";
+}
+
+function open_graphics(){
+    artwork_btn.className = "";
+    graphic_btn.className = "active";
+}
 
 
-
-
-         //判断是否为IE浏览器
 function check_browser(){
     var explorer = window.navigator.userAgent;
     if (explorer.indexOf("MSIE") >= 0) {
         return 'ie';
     }
-    //判断是否为Firefox浏览器
     else if (explorer.indexOf("Firefox") >= 0) {
         return 'Firefox';
     }
-    //判断是否为Chrome浏览器
+
     else if(explorer.indexOf("Chrome") >= 0){
         return 'Chrome';
     }
-    //判断是否为Opera浏览器
     else if(explorer.indexOf("Opera") >= 0){
         return 'Opera';
     }
-    //判断是否为Safari浏览器
     else if(explorer.indexOf("Safari") >= 0){
         return 'Safari';
     }
 }
+
 window.onload=function slideshow() {
+    artwork_btn = document.getElementById("artwork");
+    graphic_btn = document.getElementById("graphics");
+    
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
         document.getElementById('logo').className = "headerLogo_fire";
     }

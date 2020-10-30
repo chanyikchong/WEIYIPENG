@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/port_style.css">
         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
         <script src="./js/port_fun.js"></script>
     </head>
@@ -39,7 +40,12 @@
         </div> 
         <div class="colorBar"></div>
         <div class="main-container">
-
+            <div class="port_navi">
+                <span id="artwork" class="active" onclick="open_artwork()">ARTWORK</span>
+                丨
+                <!-- <div style="float:left; width: 1px;height: 14px; background: white;"></div>  -->
+                <span id="graphics" class="" onclick="open_graphics()">GRAPHICS</span>
+            </div>
         </div>
     </body>
 </html>

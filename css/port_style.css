@@ -67,12 +67,12 @@
 }
 #ArtWindow{
     opacity: 1;
-    z-index: 2;
+    z-index: 1;
     transition: 0.4s;
 }
 #GraphicsWindow{
     opacity: 0;
-    z-index: 1;
+    z-index: 0;
     transition: 0.4s;
 }
 @media(max-width: 900px){

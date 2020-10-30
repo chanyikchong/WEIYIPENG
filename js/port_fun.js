@@ -32,9 +32,9 @@ function open_graphics(){
     artwork_btn.className = "";
     graphic_btn.className = "active";
     art_window.style.opacity = 0;
-    art_window.style.zIndex = 1;
+    art_window.style.zIndex = 0;
     grapgic_window.style.opacity = 1;
-    grapgic_window.style.zIndex = 2;
+    grapgic_window.style.zIndex = 1;
 }
 
 

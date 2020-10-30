@@ -72,9 +72,10 @@ function openNav() {
 
 
 
-var explorer = window.navigator.userAgent ;
+
          //判断是否为IE浏览器
 function check_browser(){
+    var explorer = window.navigator.userAgent ;
     if (explorer.indexOf("MSIE") >= 0) {
         return 'ie';
     }

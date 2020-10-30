@@ -1,5 +1,5 @@
 .port_navi{
-    position: absolute;
+    position: fixed;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
@@ -18,4 +18,73 @@
 }
 .port_navi span.active{
     color: #BBBBBC;
+}
+.CardWindow{
+    position: absolute;
+    top: 100px;
+    left: calc(4% + 125px);
+    /* left: -webkit-calc(4% + 105px); */
+    /* background-color: turquoise; */
+}
+.CardWrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+    justify-content: flex-start;
+    /* background-color: tomato; */
+}
+.CardBox{
+    position: relative;
+    width: 32%;
+    cursor:pointer;
+    border: 0px;
+    padding: 0px;
+}
+.CardText{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.8s;
+    z-index: 0;
+}
+.CardBox img{
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+    z-index: 1;
+}
+.CardText:hover{
+    opacity: 1;
+}
+#ArtWindow{
+    opacity: 1;
+    z-index: 2;
+    transition: 0.4s;
+}
+#GraphicsWindow{
+    opacity: 0;
+    z-index: 1;
+    transition: 0.4s;
+}
+@media(max-width: 900px){
+    .CardBox{
+        width: 46%;
+    }
+}
+@media(max-width: 600px){
+    .CardWindow{
+        left: 0;
+    }
+    .CardBox{
+        width: 50%;
+    }
 }

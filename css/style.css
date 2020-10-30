@@ -8,7 +8,7 @@ html, body{
 }
 .sidenav_div1{
   margin: auto;
-  width: px;
+  width: 95px;
   height: 100%;
   position: fixed;
   z-index:1;
@@ -87,7 +87,7 @@ html, body{
 	width: 100%;
 	height: 60px;
 	background-size: cover;
-	/* background-color: rgb(29, 25, 25); */
+	background-color: rgb(29, 25, 25);
 	z-index: 2;
 }
 .headerLogo_chrom {
@@ -169,30 +169,13 @@ html, body{
 }
 
 .small_headerWrapper {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100px;
 	height: 60px;
 	background-size: cover;
 	z-index: 2;
-}
-.small_title_img{
-	position: absolute;
-	top: 8px;
-	left: 50%;
-	width: 200px;
-	transform: translateX(-50%);
-}
-.small_headerLogo{
-	position: absolute;
-	top: 8px;
-	left: 50%;
-	width: 215px;
-	height: 25px;
-	background-color: tomato;
-	background: url(../img/WP.png)no-repeat center center;
-	transform: translate(-50%,0);
 }
 .colorBar{
 	position: fixed;
@@ -203,15 +186,6 @@ html, body{
 	height: 3px;
 	z-index: 1;
 	background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
-}
-.maincontain {
-  /* margin-left: 110px; */
-  position: relative;
-  min-height: 100vh;
-  width: 100%;
-  text-align: center;
-  float: left;
-  background-color: tomato;
 }
 .bannerimage{
 	/* position: absolute; */

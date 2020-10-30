@@ -6,8 +6,10 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/port_style.css">
+        <link rel="stylesheet" href="./css/lightbox.min.css">
         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
         <script src="./js/port_fun.js"></script>
+        <script src="./js/lightbox.min.js"></script>
     </head>
     <body>
         <div class="headerWrapper">
@@ -30,8 +32,8 @@
             <div class="small_sidenav" id="mySidenav">
                 <div style="padding-top: 20px;">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="./transpare.html">HOME</a>
-                    <a href="./transpare.html">PORTFOLIO</a>  
+                    <a href="./index.html">HOME</a>
+                    <a href="./portfolio.html">PORTFOLIO</a>  
                     <a href="#">TIMELINE</a> 
                     <a href="#">BLOG</a>
                     <a href="#">ABOUT</a>
@@ -45,6 +47,94 @@
                 丨
                 <!-- <div style="float:left; width: 1px;height: 14px; background: white;"></div>  -->
                 <span id="graphics" class="" onclick="open_graphics()">GRAPHICS</span>
+            </div>
+            <div id="ArtWindow" class="CardWindow">
+                <div class="CardWrapper">
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Artwork/1.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Artwork/1.jpg">
+                            <div class="CardText">
+                                <h2>Image 1</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Artwork/2.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Artwork/2.jpg">
+                            <div class="CardText">
+                                <h2>Image 2</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Artwork/3.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Artwork/3.jpg">
+                            <div class="CardText">
+                                <h2>Image 3</h2>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Artwork/4.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Artwork/4.jpg">
+                            <div class="CardText">
+                                <h2>Image 4</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Artwork/5.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Artwork/5.jpg">
+                            <div class="CardText">
+                                <h2>Image 5</h2>
+                            </div>
+                        </a>    
+                    </div>
+                </div>
+            </div>
+            <div id="GraphicsWindow" class="CardWindow">
+                <div class="CardWrapper">
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Graphics/1.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Graphics/1.jpg">
+                            <div class="CardText">
+                                <h2>Image 1</h2>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Graphics/2.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Graphics/2.jpg">
+                            <div class="CardText">
+                                <h2>Image 2</h2>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Graphics/3.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Graphics/3.jpg">
+                            <div class="CardText">
+                                <h2>Image 3</h2>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Graphics/4.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Graphics/4.jpg">
+                            <div class="CardText">
+                                <h2>Image 4</h2>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="CardBox">
+                        <a href="./Portfolio_Images/Graphics/5.jpg" data-lightbox="mygallery">
+                            <img src="./Portfolio_Images/Graphics/5.jpg">
+                            <div class="CardText">
+                                <h2>Image 5</h2>
+                            </div>
+                        </a>    
+                    </div>
+                </div>
             </div>
         </div>
     </body>

@@ -12,13 +12,29 @@ function closeNav() {
 }
 
 function open_artwork(){
+    var artwork_btn = document.getElementById("artwork");
+    var graphic_btn = document.getElementById("graphics");
+    var art_window = document.getElementById("ArtWindow");
+    var grapgic_window = document.getElementById("GraphicsWindow")
     artwork_btn.className = "active";
     graphic_btn.className = "";
+    art_window.style.opacity = 1;
+    art_window.style.zIndex = 2;
+    grapgic_window.style.opacity = 0;
+    grapgic_window.style.zIndex = 1;
 }
 
 function open_graphics(){
+    var artwork_btn = document.getElementById("artwork");
+    var graphic_btn = document.getElementById("graphics");
+    var art_window = document.getElementById("ArtWindow");
+    var grapgic_window = document.getElementById("GraphicsWindow")
     artwork_btn.className = "";
     graphic_btn.className = "active";
+    art_window.style.opacity = 0;
+    art_window.style.zIndex = 1;
+    grapgic_window.style.opacity = 1;
+    grapgic_window.style.zIndex = 2;
 }
 
 
@@ -43,9 +59,6 @@ function check_browser(){
 }
 
 window.onload=function slideshow() {
-    artwork_btn = document.getElementById("artwork");
-    graphic_btn = document.getElementById("graphics");
-    
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
         document.getElementById('logo').className = "headerLogo_fire";
     }

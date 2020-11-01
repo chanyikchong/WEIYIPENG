@@ -22,6 +22,8 @@ function open_artwork(){
     art_window.style.zIndex = 2;
     grapgic_window.style.opacity = 0;
     grapgic_window.style.zIndex = 1;
+    art_window.style.display = "block";
+    grapgic_window.style.display = "none";
 }
 
 function open_graphics(){
@@ -35,6 +37,8 @@ function open_graphics(){
     art_window.style.zIndex = 0;
     grapgic_window.style.opacity = 1;
     grapgic_window.style.zIndex = 1;
+    art_window.style.display = "none";
+    grapgic_window.style.display = "block"
 }
 
 

@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>TIMELINE</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/timeline_style.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/flickity.min.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
     <script src="./js/timeline_func.js"></script>
+    <script src="./js/lightbox.min.js"></script>
+    <script src="./js/flickity.pkgd.min.js"></script>
 </head>
 <body>
     <div class="headerWrapper">
@@ -38,7 +43,75 @@
     </div> 
     <div class="colorBar"></div>
     <div class="main-container">
-        
+        <div class="AlbumYear">
+            <h2>2020</h2>
+        </div>
+        <div class="timelineWrapper" data-flickity='{"wrapAround": true, "resize": true, "autoPlay":5000, "pageDots": false, "prevNextButtons": false}'>
+            <a href="./Portfolio_Images/Artwork/1.jpg" data-lightbox="mygallery" class="time-cell ">
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/1.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 1</h2>
+                </div>
+            </a> 
+            <a href="./Portfolio_Images/Artwork/2.jpg" data-lightbox="mygallery" class="time-cell ">
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/2.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 2</h2>
+                </div>
+            </a>
+            <a href="./Portfolio_Images/Artwork/3.jpg" data-lightbox="mygallery" class="time-cell ">
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/3.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 3</h2>
+                </div>
+            </a>
+            <a href="./Portfolio_Images/Artwork/4.jpg" data-lightbox="mygallery" class="time-cell " >
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/4.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 4</h2>
+                </div>
+            </a>
+            <a href="./Portfolio_Images/Artwork/5.jpg" data-lightbox="mygallery" class="time-cell " >
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/5.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 5</h2>
+                </div>
+            </a>
+            <a href="./Portfolio_Images/Artwork/6.jpg" data-lightbox="mygallery" class="time-cell " >
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/6.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 6</h2>
+                </div>
+            </a>
+            <a href="./Portfolio_Images/Artwork/7.jpg" data-lightbox="mygallery" class="time-cell " >
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/7.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 7</h2>
+                </div>
+            </a>
+            <a href="./Portfolio_Images/Artwork/8.jpg" data-lightbox="mygallery" class="time-cell " >
+                <div class="ImageBox">
+                    <img src="./Portfolio_Images/Artwork/8.jpg">
+                </div>
+                <div class="TextBox">
+                    <h2>Image 8</h2>
+                </div>
+            </a>
+        </div>
     </div>
 </body>
 </html>

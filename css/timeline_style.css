@@ -1,0 +1,92 @@
+.AlbumYear{
+    position: absolute;
+    top: 80px;
+    left: calc(4% + 125px);
+    width: calc(100% - (4% + 125px) - 50px);
+    height: 50px;
+    text-align: center;
+}
+.AlbumYear h2{
+    color: rgb(214, 200, 200);
+}
+.AlbumYear h2:before,
+.AlbumYear h2:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+  /* left: 0.5em;
+  margin-right: -50%; */
+}
+.timelineWrapper{
+    position: absolute;
+    top: 130px;
+    left: calc(4% + 125px);
+    width: calc(100% - (4% + 125px) - 50px);
+    height: auto;
+}
+
+.time-cell {
+    display: block;
+	width: 16.667%;
+	padding: 0 15px;
+	margin: 30px 0;
+	text-align: center;
+	opacity: 1;
+    position: absolute;
+    text-decoration: none;
+}
+.ImageBox{
+    position: relative;
+	width: 100%
+}
+.ImageBox img{
+    display: block;
+	width: 100%
+}
+.ImageBox:after {
+	content: "";
+	position: absolute;
+	bottom: -30px;
+	left: -15px;
+	right: -15px;
+	height: 1px;
+    background-color: #4d4d4d;
+}
+.TextBox{
+    position: relative;
+	margin-top: 30px;
+	color: #707070;
+    padding-top: 22px;
+    transition: 0.8s;
+} 
+.time-cell:hover .TextBox{
+    color: #fff
+}
+.TextBox:before {
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	width: 1px;
+	height: 20px;
+	background-color: #4d4d4d
+}
+.TextBoxt h2 {
+	margin: 0 auto 5px
+}
+
+
+@media(max-width: 1100px){
+    .time-cell{
+        width: 25%;
+    }
+}
+@media(max-width: 900px){
+    .time-cell{
+        width: 30%;
+    }
+}

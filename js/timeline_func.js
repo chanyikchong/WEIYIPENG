@@ -34,7 +34,7 @@ window.onload=function startshow() {
     var flkty = new Flickity( carousel, {
         wrapAround: true,
         resize: true, 
-        autoPlay:5000, 
+        autoPlay:4000, 
         pageDots: false, 
         prevNextButtons: false,
         on: {

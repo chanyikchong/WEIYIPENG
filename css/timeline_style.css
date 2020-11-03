@@ -16,7 +16,8 @@
 .AlbumYear h2{
     color: rgb(214, 200, 200);
     font-size: 18px;
-    font-family: "mrs-eaves", "Baskerville Old Face", Garamond, "Times New Roman", serif
+    font-family: adobe-garamond-pro, Garamond, Baskerville, Baskerville Old Face, Times New Roman, serif;
+    letter-spacing: 3px;
 }
 .AlbumYear h2:before{
     background-color: #fff;
@@ -84,6 +85,7 @@
 } 
 .TextBox span{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 9px;
 }
 .time-cell:hover .TextBox{
     color: #fff

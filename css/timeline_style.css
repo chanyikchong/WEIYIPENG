@@ -117,4 +117,10 @@
         left: 0;
         width: 100%;
     }
+    .AlbumYear h2:before{
+        width: 35%;
+    }
+    .AlbumYear h2:after{
+        width: 35%;
+    }
 }

@@ -26,7 +26,27 @@ function check_browser(){
         return 'Safari';
     }
 }
-window.onload=function slideshow() {
+
+
+
+window.onload=function startshow() {
+    var carousel = document.querySelector('.timelineWrapper');
+    var flkty = new Flickity( carousel, {
+        wrapAround: true,
+        resize: true, 
+        autoPlay:5000, 
+        pageDots: false, 
+        prevNextButtons: false,
+        on: {
+            'dragStart': () => {
+              carousel.style.pointerEvents = 'none'
+            },
+            'dragEnd': () => {
+              carousel.style.pointerEvents = 'all'
+            }
+          }
+    });
+
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
         document.getElementById('logo').className = "headerLogo_fire";
     }

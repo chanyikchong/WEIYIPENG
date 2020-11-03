@@ -80,7 +80,7 @@
 	color: #707070;
     padding-top: 5px;
     transition: 0.8s;
-    font-family: "mrs-eaves", "Baskerville Old Face", Garamond, "Times New Roman", serif
+    font-family: adobe-garamond-pro, Garamond, Baskerville, Baskerville Old Face, Times New Roman, serif
 } 
 .TextBox span{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -98,7 +98,8 @@
 	background-color: #4d4d4d
 }
 .TextBox h2 {
-	margin: 5px auto 5px
+    margin: 5px auto 3px;
+    font-weight: normal;
 }
 
 

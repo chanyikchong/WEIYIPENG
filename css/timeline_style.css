@@ -17,7 +17,8 @@
     color: rgb(214, 200, 200);
     font-size: 18px;
     font-family: adobe-garamond-pro, Garamond, Baskerville, Baskerville Old Face, Times New Roman, serif;
-    letter-spacing: 3px;
+    letter-spacing: 0.8px;
+    font-weight: normal;
 }
 .AlbumYear h2:before{
     background-color: #fff;
@@ -100,7 +101,7 @@
 	background-color: #4d4d4d
 }
 .TextBox h2 {
-    margin: 5px auto 3px;
+    margin: 5px auto 1px;
     font-weight: normal;
 }
 

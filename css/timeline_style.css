@@ -112,3 +112,9 @@
         width: 30%;
     }
 }
+@media(max-width: 600px){
+    .window-container{
+        left: 0;
+        width: 100%;
+    }
+}

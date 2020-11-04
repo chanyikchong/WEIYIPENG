@@ -31,6 +31,8 @@ function check_browser(){
 
 window.onload=function startshow() {
     var carousel = document.querySelector('.timelineWrapper');
+    var carousel2 = document.querySelector('.timelineWrapper2');
+    var carousel3 = document.querySelector('.timelineWrapper3');
     var flkty = new Flickity( carousel, {
         wrapAround: true,
         resize: true, 
@@ -43,6 +45,36 @@ window.onload=function startshow() {
             },
             'dragEnd': () => {
               carousel.style.pointerEvents = 'all'
+            }
+          }
+    });
+    var flkty2 = new Flickity( carousel2, {
+        wrapAround: true,
+        resize: true, 
+        autoPlay:4000, 
+        pageDots: false, 
+        prevNextButtons: false,
+        on: {
+            'dragStart': () => {
+              carousel2.style.pointerEvents = 'none'
+            },
+            'dragEnd': () => {
+              carousel2.style.pointerEvents = 'all'
+            }
+          }
+    });
+    var flkty3 = new Flickity( carousel3, {
+        wrapAround: true,
+        resize: true, 
+        autoPlay:4000, 
+        pageDots: false, 
+        prevNextButtons: false,
+        on: {
+            'dragStart': () => {
+              carousel3.style.pointerEvents = 'none'
+            },
+            'dragEnd': () => {
+              carousel3.style.pointerEvents = 'all'
             }
           }
     });

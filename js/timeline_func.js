@@ -45,12 +45,11 @@ window.onload=function startshow() {
             },
             'dragEnd': () => {
               carousel.style.pointerEvents = 'all'
+              flkty.playPlayer()
             }
           }
     });
-    flkty.on( 'dragEnd', function( event, pointer ) {
-      flkty.playPlayer()
-    });
+
     var flkty2 = new Flickity( carousel2, {
         wrapAround: true,
         resize: true, 
@@ -63,12 +62,11 @@ window.onload=function startshow() {
             },
             'dragEnd': () => {
               carousel2.style.pointerEvents = 'all'
+              flkty2.playPlayer()
             }
           }
     });
-    flkty2.on( 'dragEnd', function( event, pointer ) {
-      flkty2.playPlayer()
-    });
+
     var flkty3 = new Flickity( carousel3, {
         wrapAround: true,
         resize: true, 
@@ -81,11 +79,9 @@ window.onload=function startshow() {
             },
             'dragEnd': () => {
               carousel3.style.pointerEvents = 'all'
+              flkty3.playPlayer()
             }
           }
-    });
-    flkty3.on( 'dragEnd', function( event, pointer ) {
-      flkty3.playPlayer()
     });
 
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){

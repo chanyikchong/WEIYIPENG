@@ -41,6 +41,40 @@ function open_graphics(){
     grapgic_window.style.display = "block"
 }
 
+function blog_1_switch(){
+    var blog1 = document.getElementById("blog_1");
+    blog1.style.zIndex = 2;
+    blog1.style.display = "block";
+    var blog2 = document.getElementById("blog_2");
+    blog2.style.zIndex = 1;
+    blog2.style.display = "none"
+    var blog3 = document.getElementById("blog_3");
+    blog3.style.zIndex = 1;
+    blog3.style.display = "none"
+}
+function blog_2_switch(){
+    var blog1 = document.getElementById("blog_1");
+    blog1.style.zIndex = 1;
+    blog1.style.display = "none"
+    var blog2 = document.getElementById("blog_2");
+    blog2.style.zIndex = 2;
+    blog2.style.display = "block";
+    var blog3 = document.getElementById("blog_3");
+    blog3.style.zIndex = 1;
+    blog3.style.display = "none"
+}
+function blog_3_switch(){
+    var blog1 = document.getElementById("blog_1");
+    blog1.style.zIndex = 1;
+    blog1.style.display = "none"
+    var blog2 = document.getElementById("blog_2");
+    blog2.style.zIndex = 1;
+    blog2.style.display = "none";
+    var blog3 = document.getElementById("blog_3");
+    blog3.style.zIndex = 2;
+    blog3.style.display = "block"
+}
+
 function check_browser(){
     var explorer = window.navigator.userAgent ;
     if (explorer.indexOf("MSIE") >= 0) {

@@ -1,3 +1,39 @@
+.about-logo-window{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 300px;
+}
+.about-logo{
+	left: 50%;
+	transform: translateX(-50%);
+	background: url(../img/w.svg) no-repeat center center;
+	background-size: contain;
+	mask-image:url(../img/w.svg) ;
+	mask-repeat: no-repeat;
+	mask-position: center center;
+	-webkit-mask-image: url(../img/w.svg);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center center;
+	text-indent: -9999px
+}
+.about-logo:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transition: all 1s linear;
+	background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
+	background-size: 200% 100%;
+	background-position: 0 0;
+	animation: rainbowMove 4s ease infinite;
+	-webkit-animation: rainbowMove 4s ease infinite;
+	-moz-animation: rainbowMove 4s ease infinite;
+}
+
 .socialWrapper {
 	bottom: 25px;
 	position: absolute;

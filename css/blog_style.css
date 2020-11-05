@@ -58,13 +58,14 @@
 
 .vlog-material{
     left: 50%;
-    width: 68%;
-    height: 85%;
-    transform: translateX(-50%);
+    top: 50%;
+    /* width: 68%;
+    height: 85%; */
+    transform: translate(-50%, -50%);
     position: absolute;
     /* width: 90%; */
     /* float: left; */
-    background-color: tomato;
+    /* background-color: tomato; */
     
 }
 

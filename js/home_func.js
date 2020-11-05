@@ -70,6 +70,19 @@ function openNav() {
     document.getElementById("menu_bar").style.display = "block"
   }
 
+var is_open_about = false;
+function opAbout() {
+    var socialwrapper = document.getElementById("socialWrap")
+    if (is_open_about) {
+        socialwrapper.style.height = "0px";
+        is_open_about = false;
+    }
+    else {
+        socialwrapper.style.height = "75px";
+        is_open_about = true;
+    }
+}
+
 function check_browser(){
     var explorer = window.navigator.userAgent ;
     if (explorer.indexOf("MSIE") >= 0) {

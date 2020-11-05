@@ -8,6 +8,39 @@ function closeNav() {
     document.getElementById("menu_bar").style.display = "block"
 }
 
+var artwork_btn = document.getElementById("artwork");
+var graphic_btn = document.getElementById("graphics");
+
+function open_artwork(){
+    var artwork_btn = document.getElementById("artwork");
+    var graphic_btn = document.getElementById("graphics");
+    var art_window = document.getElementById("ArtWindow");
+    var grapgic_window = document.getElementById("GraphicsWindow")
+    artwork_btn.className = "active";
+    graphic_btn.className = "";
+    art_window.style.opacity = 1;
+    art_window.style.zIndex = 2;
+    grapgic_window.style.opacity = 0;
+    grapgic_window.style.zIndex = 1;
+    art_window.style.display = "block";
+    grapgic_window.style.display = "none";
+}
+
+function open_graphics(){
+    var artwork_btn = document.getElementById("artwork");
+    var graphic_btn = document.getElementById("graphics");
+    var art_window = document.getElementById("ArtWindow");
+    var grapgic_window = document.getElementById("GraphicsWindow")
+    artwork_btn.className = "";
+    graphic_btn.className = "active";
+    art_window.style.opacity = 0;
+    art_window.style.zIndex = 0;
+    grapgic_window.style.opacity = 1;
+    grapgic_window.style.zIndex = 1;
+    art_window.style.display = "none";
+    grapgic_window.style.display = "block"
+}
+
 function check_browser(){
     var explorer = window.navigator.userAgent ;
     if (explorer.indexOf("MSIE") >= 0) {
@@ -27,37 +60,6 @@ function check_browser(){
     }
 }
 
-// $.ajaxPrefilter( function (options) {
-//         if (options.crossDomain && jQuery.support.cors) {
-//             var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
-//             options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
-//             };
-//         });
-//     var showSrc = "https://mp.weixin.qq.com/s/RPVlp9cbMS_dL30SParNfQ"
-//     $.get( showSrc, function (response){
-//         var html = response;
-//         html = html.replace(/data-src/g, "src").replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/g, '').replace(/https/g,'http');
-//         var html_src = 'data:text/html;charset=utf-8,' + html;
-//         iframe.attr("src" , html_src);
-//         //var bodyInner = thisV.getBody(html,REG_BODY);
-//         //bodyInner = '<div class="bodyHtml">'+bodyInner +'</div>'
-//         //$('.casesCon').append(bodyInner);
-//     });
-
-getUrl(URL)
-    //url 为微信公众号文章链接
-    let http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
-    let realurl = http + '//cors-anywhere.herokuapp.com/' + URL;
-    axios.get(realurl).then((response)=>{
-    console.log(response)
-    let html = response.data;
-    html = html.replace(/data-src/g, "src")
-                .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/g, '')
-                .replace(/https/g,'http');
-    let html_src = 'data:text/html;charset=utf-8,' + html;
-    let iframe = document.getElementById('iFrame');
-    iframe.src = html_src;
-    },(err)=>{console.log(err);});
 
 window.onload=function slideshow() {
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){

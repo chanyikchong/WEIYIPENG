@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/timeline_style.css">
     <link rel="stylesheet" href="./css/blog_style.css">
+    <link rel="stylesheet" href="./css/port_style.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
     <script src="./js/blog_func.js"></script>
     
@@ -20,7 +21,7 @@
             <a href="./index.html">HOME</a>
             <a href="./portfolio.html">PORTFOLIO</a>  
             <a href="./timeline.html">TIMELINE</a> 
-            <a href="./blog.html">BLOG</a>
+            <a href="./blog.html">WYLOG</a>
             <a href="./about.html">ABOUT</a>
         </div>
     </div>
@@ -34,15 +35,31 @@
                 <a href="./index.html">HOME</a>
                 <a href="./portfolio.html">PORTFOLIO</a>  
                 <a href="./timeline.html">TIMELINE</a> 
-                <a href="./blog.html">BLOG</a>
+                <a href="./blog.html">WYLOG</a>
                 <a href="./about.html">ABOUT</a>
             </div>
         </div>
     </div> 
     <div class="colorBar"></div>
     <div class="main-container">
-        <div class="window-container">
-            <iframe class="blog" src=""></iframe>
+        <div class="port_navi">
+            <span id="artwork" class="active" onclick="open_artwork()">BLOG</span>
+            丨
+            <!-- <div style="float:left; width: 1px;height: 14px; background: white;"></div>  -->
+            <span id="graphics" class="" onclick="open_graphics()">VLOG</span>
+        </div>
+        <div id="ArtWindow" class="BlogWindow">
+            <div class="blog-material">
+                haha
+            </div>
+            <div class="blog-bar">
+
+            </div>
+        </div>
+        <div id="GraphicsWindow" class="BlogWindow">
+            <div class="vlog-material">
+                <iframe class="playlist" src="https://www.youtube.com/embed/-Jn06U77s_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </body>

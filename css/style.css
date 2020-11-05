@@ -208,6 +208,12 @@ html, body{
     width: 100%;
 	min-height: 100%;
 }
+.window-container{
+    position: absolute;
+    top: 80px;
+    left: calc(4% + 125px);
+    width: calc(100% - (4% + 125px) - 50px);
+}
 .image-container{
 	position: absolute;
 	float:left;
@@ -230,59 +236,6 @@ html, body{
 }
 .image-container img.active{
 	opacity: 1;
-}
-
-.socialWrapper {
-	position: fixed;
-	bottom: 0%;
-	width: 100%;
-	height: 0px;
-	/* overflow: auto; */
-	transition: 0.8s;
-}
-
-.footerSocials {
-	list-style: none;
-	margin: 17px auto;
-	padding: 0;
-	text-align: center
-}
-
-.footerSocials li {
-	display: inline-block
-}
-
-.footerSocials a {
-	display: block;
-	width: 40px;
-	height: 40px;
-	margin: 0 4px;
-	background-repeat: no-repeat;
-	background-size: 24px auto;
-	background-position: center center;
-	cursor: pointer
-}
-
-.footerSocials span {
-	visibility: hidden;
-	position: absolute
-}
-
-.footerSocials svg {
-	width: 24px;
-	margin-top: 9px
-}
-
-.footerSocials path {
-	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)
-}
-
-.footerSocials a:hover path {
-	fill: #BBBBBC
-}
-
-.footerSocials.menuSocials a:hover path {
-	fill: #BBBBBC
 }
 
 @media(max-width: 600px){

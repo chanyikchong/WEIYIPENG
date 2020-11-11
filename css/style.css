@@ -220,7 +220,7 @@ html, body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	width: 68%;
+	width: 60%;
 }
 .image-container img{
 	position: absolute;
@@ -237,7 +237,21 @@ html, body{
 .image-container img.active{
 	opacity: 1;
 }
-
+.abstract{
+	position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #5F5F5F;
+    /* background-color: tomato; */
+    z-index: 2;
+}
+.abstract span{
+	font-family: Garamond, serif;
+    text-decoration: none;
+    transition: 0.8s;
+    letter-spacing: 0.8px;
+}
 @media(max-width: 600px){
 	.big_menu{
 		display: none;

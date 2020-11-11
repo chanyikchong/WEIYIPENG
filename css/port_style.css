@@ -37,7 +37,7 @@
 }
 .CardBox{
     position: relative;
-    width: 23%;
+    width: 23.65%;
     cursor:pointer;
     border: 0px;
     padding: 0px;
@@ -80,9 +80,9 @@
     z-index: 0;
     transition: 0.4s;
 }
-@media(max-width: 900px){
+@media(max-width: 1000px){
     .CardBox{
-        width: 46%;
+        width: 32%;
     }
 }
 @media(max-width: 600px){

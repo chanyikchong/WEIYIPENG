@@ -60,6 +60,7 @@
 .CardText h2{
     font-family:  Garamond, serif;
     font-weight: normal;
+    font-size: 10px;
 }
 .CardBox img{
     width: 100%;

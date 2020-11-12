@@ -25,7 +25,7 @@
     margin-bottom: 3px;
 }
 .main-passage h2{
-    font-family: Noto Sans SC;
+    font-family: Adobe Garamond Pro;
     font-weight: normal;
     font-size: 13px;
 }
@@ -47,7 +47,18 @@
 }
 
 .blog-cover{
-    position: fixed;
+    /* position: fixed; */
+    text-align: center;
+}
+.cover{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.cover img{
+    width: 100%;
+    left: 50%;
+    
 }
 
 .swith_btn{
@@ -87,8 +98,37 @@
     height: 100%;
 }
 
+.youtube{
+    width: 840px; 
+    height: 472.5px;
+}
+
+@media(max-width:1170px){
+    .youtube{
+        width: 672px;
+        height: 378px;
+    }
+}
+@media(max-width:940px){
+    .youtube{
+        width: 537.6px;
+        height: 300px;
+    }
+}
+@media(max-width:800px){
+    .youtube{
+        width: 430px;
+        height: 240px;
+    }
+}
 @media(max-width: 600px){
     .BlogWindow{
         left: 0;
+    }
+}
+@media(max-width: 430px){
+    .youtube{
+        width: 322.5px;
+        height: 180px;
     }
 }

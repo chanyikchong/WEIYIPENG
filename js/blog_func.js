@@ -24,6 +24,18 @@ function open_artwork(){
     grapgic_window.style.zIndex = 1;
     art_window.style.display = "block";
     grapgic_window.style.display = "none";
+    var blog0 = document.getElementById("blog_init");
+    blog0.style.zIndex = 2;
+    blog0.style.display = "block"
+    var blog1 = document.getElementById("blog_1");
+    blog1.style.zIndex = 1;
+    blog1.style.display = "none";
+    var blog2 = document.getElementById("blog_2");
+    blog2.style.zIndex = 1;
+    blog2.style.display = "none"
+    var blog3 = document.getElementById("blog_3");
+    blog3.style.zIndex = 1;
+    blog3.style.display = "none"
 }
 
 function open_graphics(){
@@ -42,6 +54,9 @@ function open_graphics(){
 }
 
 function blog_1_switch(){
+    var blog0 = document.getElementById("blog_init");
+    blog0.style.zIndex = 1;
+    blog0.style.display = "none"
     var blog1 = document.getElementById("blog_1");
     blog1.style.zIndex = 2;
     blog1.style.display = "block";
@@ -53,6 +68,9 @@ function blog_1_switch(){
     blog3.style.display = "none"
 }
 function blog_2_switch(){
+    var blog0 = document.getElementById("blog_init");
+    blog0.style.zIndex = 1;
+    blog0.style.display = "none"
     var blog1 = document.getElementById("blog_1");
     blog1.style.zIndex = 1;
     blog1.style.display = "none"
@@ -64,6 +82,9 @@ function blog_2_switch(){
     blog3.style.display = "none"
 }
 function blog_3_switch(){
+    var blog0 = document.getElementById("blog_init");
+    blog0.style.zIndex = 1;
+    blog0.style.display = "none"
     var blog1 = document.getElementById("blog_1");
     blog1.style.zIndex = 1;
     blog1.style.display = "none"

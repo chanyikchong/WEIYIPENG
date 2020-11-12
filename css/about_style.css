@@ -7,12 +7,12 @@
 .about-logo{
 	left: 50%;
 	transform: translateX(-50%);
-	background: url(../img/w.svg) no-repeat center center;
+	background: url(../img/WP_chrom.svg) no-repeat center center;
 	background-size: contain;
-	mask-image:url(../img/w.svg) ;
+	mask-image:url(../img/WP_chrom.svg) ;
 	mask-repeat: no-repeat;
 	mask-position: center center;
-	-webkit-mask-image: url(../img/w.svg);
+	-webkit-mask-image: url(../img/WP_chrom.svg);
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center center;
 	text-indent: -9999px

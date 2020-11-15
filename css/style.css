@@ -6,6 +6,9 @@ html, body{
   margin: 0;
   padding: 0;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .sidenav_div1{
   margin: auto;
   width: 95px;

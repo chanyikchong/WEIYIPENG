@@ -37,13 +37,22 @@
     font-family: Noto Sans SC;
     font-size: 16px;
 }
+.main-passage span{
+    background: linear-gradient(270deg,#e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    color: transparent;
+}
 
 .blog-bar{
-    position: absolute;
+    position: fixed;
     width: 11%;
-    right: 11%;
+    right: 10%;
     color: wheat;
     z-index: 4;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .blog-cover{
@@ -54,6 +63,7 @@
     position: relative;
     width: 100%;
     text-align: center;
+    margin: 20%;
 }
 .cover img{
     width: 100%;
@@ -123,7 +133,12 @@
 }
 @media(max-width: 600px){
     .BlogWindow{
-        left: 0;
+        left: 50%;
+        width: 95%;
+        transform: translateX(-50%);
+    }
+    .blog-bar{
+        display: none;
     }
 }
 @media(max-width: 430px){

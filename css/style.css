@@ -211,7 +211,7 @@ html, body{
     width: 100%;
 	min-height: 100vh;
 	height: auto;
-	overflow: auto;
+	/* overflow: auto; */
 	display: block;
 	/* flex-direction: column; */
 }
@@ -259,26 +259,26 @@ html, body{
     transition: 0.8s;
     letter-spacing: 0.8px;
 }
-.socialWrapper {
-	bottom: -25px;
-	position: relative;
+.socialWrapper-home {
+	bottom: 35px;
+	position: absolute;
 	width: 100%;
 	/* height: auto; */
 	transition: 0.8s;
 }
 
-.footerSocials {
+.footerSocials-home {
 	list-style: none;
 	margin: 17px auto 0px;
 	padding: 0;
 	text-align: center;
 }
 
-.footerSocials li {
+.footerSocials-home li {
 	display: inline-block
 }
 
-.footerSocials a {
+.footerSocials-home a {
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -289,25 +289,25 @@ html, body{
 	cursor: pointer;
 }
 
-.footerSocials span {
+.footerSocials-home span {
 	visibility: hidden;
 	position: absolute
 }
 
-.footerSocials svg {
+.footerSocials-home svg {
 	width: 24px;
 	margin-top: 9px
 }
 
-.footerSocials path {
+.footerSocials-home path {
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)
 }
 
-.footerSocials a:hover path {
+.footerSocials-home a:hover path {
 	fill: #BBBBBC
 }
 
-.footerSocials.menuSocials a:hover path {
+.footerSocials-home.menuSocials a:hover path {
 	fill: #BBBBBC
 }
 

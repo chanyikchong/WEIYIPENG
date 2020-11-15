@@ -41,36 +41,34 @@
 	
 }
 .personal{
-	/* position: relative; */
+	position: relative;
 	padding-right: 10px;
-	padding-bottom: 50px;
 	display: block;
     color: white;
-	display: block;
 	font-family: Adobe Garamond Pro;
 	background-color: tomato;
 }
 
-.socialWrapper-home {
-	bottom: 35px;
-	position: absolute;
+.socialWrapper {
+	bottom: -25px;
+	position: relative;
 	width: 100%;
 	/* height: auto; */
 	transition: 0.8s;
 }
 
-.footerSocials-home {
+.footerSocials {
 	list-style: none;
 	margin: 17px auto 0px;
 	padding: 0;
 	text-align: center;
 }
 
-.footerSocials-home li {
+.footerSocials li {
 	display: inline-block
 }
 
-.footerSocials-home a {
+.footerSocials a {
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -81,25 +79,25 @@
 	cursor: pointer;
 }
 
-.footerSocials-home span {
+.footerSocials span {
 	visibility: hidden;
 	position: absolute
 }
 
-.footerSocials-home svg {
+.footerSocials svg {
 	width: 24px;
 	margin-top: 9px
 }
 
-.footerSocials-home path {
+.footerSocials path {
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)
 }
 
-.footerSocials-home a:hover path {
+.footerSocials a:hover path {
 	fill: #BBBBBC
 }
 
-.footerSocials-home.menuSocials a:hover path {
+.footerSocials.menuSocials a:hover path {
 	fill: #BBBBBC
 }
 .copy-right{

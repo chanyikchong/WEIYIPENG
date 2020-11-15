@@ -12,14 +12,17 @@
 .main-passage{
     display: block;
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    width: 100%;
+    width: 85%;
     /* background-color: turquoise; */
     color: white;
     display: block;
 }
-
+/* .main-passage div{
+    width: 80%;
+} */
 .main-passage h1{
     font-family: Noto Sans SC;
     font-weight: normal;
@@ -37,7 +40,7 @@
 }
 .main-passage p{
     font-family: Noto Sans SC;
-    font-size: 16px;
+    font-size: 13px;
 }
 .main-passage span{
     background: linear-gradient(270deg,#e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
@@ -148,17 +151,11 @@
         width: 537.6px;
         height: 300px;
     }
-    .blog-material{
-        width: 70%;
-    }
 }
 @media(max-width:800px){
     .youtube{
         width: 430px;
         height: 240px;
-    }
-    .blog-material{
-        width: 65%;
     }
 }
 @media(max-width: 600px){

@@ -43,7 +43,7 @@
     font-size: 13px;
 }
 .main-passage span{
-    background: linear-gradient(270deg,#e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
+    background: linear-gradient(90deg,#e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
     background-clip: text;
     -webkit-background-clip: text;
     text-decoration: none;

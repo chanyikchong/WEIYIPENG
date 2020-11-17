@@ -1,6 +1,6 @@
 .empty{
 	position: relative;
-	height: 100px;
+	height: 65px;
 	width: 100%;
 }
 .W-Wrapper{
@@ -55,15 +55,15 @@
 }
 .personal{
 	position: relative;
-	padding-right: 10px;
+	/* padding-right: 10px; */
 	display: block;
     color: white;
 	font-family: Adobe Garamond Pro;
 }
 
 .socialWrapper {
-	/* bottom: -25px; */
-	position: relative;
+	bottom: 35px;
+	position: absolute;
 	width: 100%;
 	/* height: auto; */
 	transition: 0.8s;
@@ -123,6 +123,7 @@
     font-weight: normal;
 	font-size: 13px;
 	position: absolute;
+	margin-top: -15px;
 }
 .copy-right a{
 	text-decoration: none;
@@ -132,8 +133,18 @@
 @media(max-width: 600px){
 	.main-window{
 		position: relative;
-		top: 100px;
 		left: 25px;
 		width: calc(100% - 50px);
+	}
+}
+@media(max-width: 426px){
+	.footerSocials a {
+		margin: 0 0;
+	}
+}
+@media(max-width: 376px){
+	.footerSocials a{
+		width: 35px;
+		height: 35px;
 	}
 }

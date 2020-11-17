@@ -19,11 +19,10 @@
 	-webkit-mask-image: url(../img/WP442.svg);
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center center;
-	border: none;
 	/* text-indent: -9999px */
 }
 .W-Wrapper:before{
-	border: none;
+	border-radius: 50%;
 	content: "";
 	display: block;
 	position: relative;

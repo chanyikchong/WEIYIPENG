@@ -7,8 +7,8 @@
 	position: relative;
 	z-index: 1;
 	display: block;
-	width: 140px;
-	height: 140px;
+	width: 68px;
+	height: 68px;
 	left: 50%;
 	transform: translateX(-50%);
 	background: url(../img/WP442.svg) no-repeat center center;
@@ -26,13 +26,13 @@
 	content: "";
 	display: block;
 	position: relative;
-	width: 100%;
-	height: 100%;
+	width: 95%;
+	height: 95%;
 	top: 0;
 	left: 0;
 	transition: all 1s linear;
 	/* background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829); */
-	background: url(../img/color.jpg);
+	background: url(../img/color.png);
 	background-size: 100% 100%;
 	background-position: 0 0;
 	animation: rainbowMove2 4s linear infinite;

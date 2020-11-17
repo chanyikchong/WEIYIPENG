@@ -115,8 +115,49 @@ function check_browser(){
     }
 }
 
+function set_moon(){
+    var d = new Date();
+    var date = d.getDate();
+    var waningCrescent = document.getElementById('moon0');
+    var thirdQuarter = document.getElementById('moon1');
+    var waningGibbous = document.getElementById('moon2');
+    var fullMoon = document.getElementById('moon3');
+    var waxingGibbous = document.getElementById('moon4');
+    var firstQuarter = document.getElementById('moon5');
+    var waxingCrescent = document.getElementById('moon6');
+    var newMoon = document.getElementById('moon7');
+    var lis = [waningCrescent, thirdQuarter, waningGibbous, fullMoon, waxingGibbous, firstQuarter, waxingCrescent, newMoon]
+    function set_active(num){
+        lis[num].className['baseVal'] += 'active';
+    }
+    if (date >= 1 && date < 8){
+        set_active(2);
+    }
+    else if (date === 8){
+        set_active(1);
+    }
+    else if (date >= 9 && date < 15){
+        set_active(0);
+    }
+    else if(date === 15){
+        set_active(7);
+    }
+    else if(date >= 16 && date < 21){
+        set_active(6);
+    }
+    else if(date === 21){
+        set_active(5);
+    }
+    else if(date >= 22 && date < 30){
+        set_active(4);
+    }
+    else{
+        set_active(3);
+    }
+}
 
 window.onload=function slideshow() {
+    set_moon();
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
         document.getElementById('logo').className = "headerLogo_fire";
     }

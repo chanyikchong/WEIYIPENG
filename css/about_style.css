@@ -8,7 +8,7 @@
 	z-index: 1;
 	display: block;
 	width: 150px;
-	height: 150px;
+	height: 141.3px;
 	left: 50%;
 	transform: translateX(-50%);
 	background: url(../img/WP442.svg) no-repeat center center;
@@ -40,6 +40,8 @@
 	animation-iteration-count: infinite;
 	-webkit-animation: rainbowMove2 4s linear infinite;
 	-moz-animation: rainbowMove2 4 linear infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
 }
 @keyframes rainbowMove2{
 	0% {transform: rotate(0);}

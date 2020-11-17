@@ -131,7 +131,7 @@
 	color: #636364;
 }
 
-@media(max-width: 690px){
+@media(max-width: 950px){
 	.socialWrapper{
 		position: relative;
 	}

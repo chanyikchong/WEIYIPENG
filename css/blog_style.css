@@ -34,6 +34,7 @@
     font-family: Adobe Garamond Pro;
     font-weight: normal;
     font-size: 13px;
+    letter-spacing: 0.4px;
 }
 .main-passage i{
     font-family: Noto Sans SC;
@@ -42,6 +43,7 @@
 .main-passage p{
     font-family: Noto Sans SC;
     font-size: 13px;
+    letter-spacing: 0.4px;
 }
 .main-passage span{
     background: linear-gradient(90deg,#e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);

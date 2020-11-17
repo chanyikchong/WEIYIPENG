@@ -101,11 +101,12 @@
 	color: #707070;
     padding-top: 5px;
     transition: 0.8s;
-    font-family:  Garamond, serif
+    font-family:  Adobe Garamond Pro;
 } 
 .TextBox span{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 9px;
+    letter-spacing: 0.8px;
 }
 .time-cell:hover .TextBox{
     color: #fff
@@ -122,6 +123,7 @@
 .TextBox h2 {
     margin: 5px auto 1px;
     font-weight: normal;
+    letter-spacing: 0.8px;
 }
 
 

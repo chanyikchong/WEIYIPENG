@@ -1,6 +1,6 @@
 .empty{
 	position: relative;
-	height: 65px;
+	height: 100px;
 	width: 100%;
 }
 .W-Wrapper{
@@ -42,6 +42,46 @@
 	-webkit-animation-iteration-count: infinite;
 	-moz-animation-iteration-count: infinite;
 }
+.W-Wrapper-window{
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 68px;
+	height: 68px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: url(../img/WP442.svg) no-repeat center center;
+	background-size: contain;
+	mask-image:url(../img/WP442.svg) ;
+	mask-repeat: no-repeat;
+	mask-position: center center;
+	-webkit-mask-image: url(../img/WP442.svg);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center center;
+	/* text-indent: -9999px */
+}
+.W-Wrapper-window:before{
+	border-radius: 50%;
+	content: "";
+	display: block;
+	position: relative;
+	width: 95%;
+	height: 95%;
+	top: 0;
+	left: 0;
+	transition: all 1s linear;
+	/* background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829); */
+	background: url(../img/color.png);
+	background-size: 100% 100%;
+	background-position: 0 0;
+	animation: rainbowMove2 4s linear infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation: rainbowMove2 4s linear infinite;
+	-moz-animation: rainbowMove2 4 linear infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+}
 @keyframes rainbowMove2{
 	0% {transform: rotate(0);}
 	25% {transform: rotate(90deg);}
@@ -53,6 +93,19 @@
 	position: relative;
 	left: calc(4% + 125px);
 	width: calc(100% - 4% - 125px - 50px);
+}
+.about-left{
+	float: left;
+	position: relative;
+	width: 50%;
+	margin-right: 0px;
+	height: 600px;
+}
+.about-right{
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 600px;
 }
 .personal{
 	position: relative;
@@ -131,13 +184,22 @@
 	text-decoration: none;
 	color: #636364;
 }
+.phone-about{
+	display: none;
+}
 
-@media(max-width: 750px){
+@media(max-width: 800px){
 	.socialWrapper{
 		margin-top: 50px;
 	}
 	.socialWrapper{
 		position: relative;
+	}
+	.phone-about{
+		display: block;
+	}
+	.window-about{
+		display: none;
 	}
 }
 
@@ -147,10 +209,11 @@
 		left: 25px;
 		width: calc(100% - 50px);
 	}
+	
 }
 @media(max-width: 426px){
 	.footerSocials a {
-		margin: 0 0;
+		margin: 0 -1px;
 	}
 }
 @media(max-width: 376px){

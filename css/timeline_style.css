@@ -1,8 +1,10 @@
 .window-container{
     position: absolute;
-    top: 80px;
-    left: calc(4% + 125px);
-    width: calc(100% - (4% + 125px) - 50px);
+    top: 100px;
+    /* left: calc(4% + 125px); */
+    left: 195px;
+    /* width: calc(100% - (4% + 125px) - 50px);  */
+    width: calc(100% - 195px - 50px); /*margin-right 50px*/
 }
 .AlbumYear{
     position: relative;

@@ -23,7 +23,9 @@
 .CardWindow{
     position: absolute;
     top: 100px;
-    left: calc(4% + 125px);
+    /* left: calc(4% + 125px); */
+    left: 195px;
+    margin-right: 50px;
     /* left: -webkit-calc(4% + 105px); */
     /* background-color: turquoise; */
 }
@@ -37,7 +39,7 @@
 }
 .CardBox{
     position: relative;
-    width: 23.65%;
+    width: 25%;
     cursor:pointer;
     border: 0px;
     padding: 0px;
@@ -84,12 +86,13 @@
 }
 @media(max-width: 1000px){
     .CardBox{
-        width: 32%;
+        width: 33.3%;
     }
 }
 @media(max-width: 600px){
     .CardWindow{
         left: 0;
+        margin-right: 0;
     }
     .CardBox{
         width: 50%;

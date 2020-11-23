@@ -56,7 +56,7 @@
 .blog-bar{
     position: fixed;
     width: 11%;
-    right: 1%;
+    right: 50px;
     color: wheat;
     z-index: 4;
     top: 50%;

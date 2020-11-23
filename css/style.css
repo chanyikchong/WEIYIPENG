@@ -38,14 +38,14 @@ html, body{
 .spotify-div{
 	position: fixed;
 	left: -15px;
-	top: 250px;
+	bottom: 0px;
 	z-index: 99;
 	transform: scale(0.85);
 }
 .spotify-div iframe{
 	left: 0;
 	width: 220px;
-	height: 500px;
+	height: 230px;
 }
 .small_sidenav {
 	/* width: 100px;

@@ -188,13 +188,8 @@
 	display: none;
 }
 
-@media(max-width: 800px){
-	.socialWrapper{
-		margin-top: 50px;
-	}
-	.socialWrapper{
-		position: relative;
-	}
+@media(max-width: 1000px){
+	
 	.phone-about{
 		display: block;
 	}
@@ -202,7 +197,14 @@
 		display: none;
 	}
 }
-
+@media(max-width: 800px){
+	.socialWrapper{
+		margin-top: 50px;
+	}
+	.socialWrapper{
+		position: relative;
+	}
+}
 @media(max-width: 600px){
 	.main-window{
 		position: relative;

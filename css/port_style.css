@@ -24,8 +24,9 @@
     position: absolute;
     top: 100px;
     /* left: calc(4% + 125px); */
-    left: 195px;
-    margin-right: 50px;
+    left: 180px;
+    /* margin-right: 50px; */
+    width: calc(100% - 180px - 50px);
     /* left: -webkit-calc(4% + 105px); */
     /* background-color: turquoise; */
 }

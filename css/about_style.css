@@ -91,8 +91,8 @@
 }
 .main-window{
 	position: relative;
-	left: calc(4% + 125px);
-	width: calc(100% - 4% - 125px - 50px);
+	left: 180px; /*calc(4% + 125px)*/
+	width: calc(100% - 180px - 50px);
 }
 .about-left{
 	float: left;

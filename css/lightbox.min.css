@@ -1,8 +1,9 @@
 .lb-loader,.lightbox {
 	text-align:center;
 	line-height:0;
-	position:absolute;
-	left:0
+	position:fixed;
+	left:0;
+	transform: translateY(-50%);
 }
 body.lb-disable-scrolling {
 	overflow:hidden
@@ -172,9 +173,4 @@ body.lb-disable-scrolling {
 	cursor:pointer;
 	filter:alpha(Opacity=100);
 	opacity:1
-}
-@media(max-width: 600px){
-	.lb-loader,.lightbox {
-		transform: translateY(20%);
-	}
 }

@@ -282,7 +282,7 @@ html, body{
 .abstract span{
 	font-family: Adobe Garamond Pro;
     text-decoration: none;
-    transition: 0.4s;
+    transition: 0.8s;
 	letter-spacing: 0.8px;
 	color: white;
 	opacity: 0;

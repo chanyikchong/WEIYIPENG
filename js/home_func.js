@@ -129,11 +129,9 @@ window.onload=function slideshow() {
         slideon=setInterval(changeSlide,6000); 
     }
     
-    var turn = document.getElementById("turn");
-    var your = document.getElementById("your");
-    var magic = document.getElementById("magic");
-    var on = document.getElementById("on");
-    word_lis = [turn, your, magic, on];
+    var word_space = document.getElementById("abstract");
+    word_lis = word_space.getElementsByTagName("span");
+    // word_lis = [turn, your, magic, on];
     var word_count = 0;
     var is_show = false;
     function typer(){
@@ -144,10 +142,10 @@ window.onload=function slideshow() {
             word_lis[word_count].className = "";
         }
         word_count++;
-        if (word_count>3){
+        if (word_count>=word_lis.length){
             word_count = 0;
             is_show = (is_show===false)
         }
     }
-    var show_typer = setInterval(typer, 400);
+    var show_typer = setInterval(typer, 100);
 }

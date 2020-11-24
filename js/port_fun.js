@@ -8,7 +8,7 @@ function openNav() {
         check_menu_bar = false;
     }
     else{
-        document.getElementById("mySidenav").style.height = "calc(100% - 68px)";
+        document.getElementById("mySidenav").style.height = "100%";
         check_menu_bar = true;
     }
   }

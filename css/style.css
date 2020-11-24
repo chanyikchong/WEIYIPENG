@@ -180,7 +180,7 @@ html, body{
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	width: 100px;
+	width: calc((100% - 215px) / 2);
 	height: 68px;
 	background-size: cover;
 	z-index: 5;

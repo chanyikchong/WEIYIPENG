@@ -1,15 +1,17 @@
 var artwork_btn = document.getElementById("artwork");
 var graphic_btn = document.getElementById("graphics");
 
+var check_menu_bar = false;
 function openNav() {
-    document.getElementById("mySidenav").style.height = "140px";
-    document.getElementById("menu_bar").style.display = "none"
+    if (check_menu_bar){
+        document.getElementById("mySidenav").style.height = "0"; //140px
+        check_menu_bar = false;
+    }
+    else{
+        document.getElementById("mySidenav").style.height = "calc(100% - 68px)";
+        check_menu_bar = true;
+    }
   }
-  
-function closeNav() {
-    document.getElementById("mySidenav").style.height = "0";
-    document.getElementById("menu_bar").style.display = "block"
-}
 
 function getMoonPhase(year, month, day)
 {

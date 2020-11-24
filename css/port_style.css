@@ -94,8 +94,14 @@
     .CardWindow{
         left: 0;
         margin-right: 0;
+        width: 100%;
     }
     .CardBox{
         width: 50%;
+    }
+}
+@media(max-width: 321px){
+    .port_navi{
+        font-size: 13px;
     }
 }

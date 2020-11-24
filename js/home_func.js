@@ -77,6 +77,21 @@ function set_moon(){
     lis[num].className['baseVal'] += 'active';
 }
 
+function typer(){
+    var turn = document.getElementById("turn");
+    var your = document.getElementById("your");
+    var magic = document.getElementById("magic");
+    var on = document.getElementById("on");
+    turn.className = "active";
+    
+    your.className = "active";
+    
+    magic.className = "active";
+    
+    on.className = "active";
+    
+}
+
 window.onload=function slideshow() {
     var container=document.getElementById("image_gallery")
     var imgs=container.getElementsByTagName("img")
@@ -114,4 +129,25 @@ window.onload=function slideshow() {
         slideon=setInterval(changeSlide,6000); 
     }
     
+    var turn = document.getElementById("turn");
+    var your = document.getElementById("your");
+    var magic = document.getElementById("magic");
+    var on = document.getElementById("on");
+    word_lis = [turn, your, magic, on];
+    var word_count = 0;
+    var is_show = false;
+    function typer(){
+        if (is_show){
+            word_lis[word_count].className = "active";
+        }
+        else{
+            word_lis[word_count].className = "";
+        }
+        word_count++;
+        if (word_count>3){
+            word_count = 0;
+            is_show = (is_show===false)
+        }
+    }
+    var show_typer = setInterval(typer, 400);
 }

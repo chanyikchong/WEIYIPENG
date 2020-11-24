@@ -282,8 +282,13 @@ html, body{
 .abstract span{
 	font-family: Adobe Garamond Pro;
     text-decoration: none;
-    transition: 0.8s;
-    letter-spacing: 0.8px;
+    transition: 0.4s;
+	letter-spacing: 0.8px;
+	color: white;
+	opacity: 0;
+}
+.abstract span.active{
+	opacity: 1;
 }
 .socialWrapper-home {
 	bottom: 35px;

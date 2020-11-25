@@ -184,11 +184,25 @@
 	text-decoration: none;
 	color: #636364;
 }
+#cv1 span{
+	transition: 0.8s;
+	opacity: 0;
+}
+#cv1 span.active{
+	opacity: 1;
+}
+#cv2 span{
+	transition: 0.8s;
+	opacity: 0;
+}
+#cv2 span.active{
+	opacity: 1;
+}
 .phone-about{
 	display: none;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1070px){
 	
 	.phone-about{
 		display: block;

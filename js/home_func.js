@@ -131,7 +131,6 @@ window.onload=function slideshow() {
     
     var word_space = document.getElementById("abstract");
     word_lis = word_space.getElementsByTagName("span");
-    // word_lis = [turn, your, magic, on];
     var word_count = 0;
     var is_show = false;
     function typer(){

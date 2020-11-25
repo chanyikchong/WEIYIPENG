@@ -10,19 +10,6 @@ function openNav() {
     }
   }
 
-var is_open_about = false;
-function opAbout() {
-    var socialwrapper = document.getElementById("socialWrap")
-    if (is_open_about) {
-        socialwrapper.style.height = "0px";
-        is_open_about = false;
-    }
-    else {
-        socialwrapper.style.height = "75px";
-        is_open_about = true;
-    }
-}
-
 function check_browser(){
     var explorer = window.navigator.userAgent ;
     if (explorer.indexOf("MSIE") >= 0) {
@@ -90,6 +77,29 @@ function set_moon(){
 }
 
 window.onload=function slideshow() {
+    var word_space1 = document.getElementById("cv1");
+    var word_space2 = document.getElementById("cv2");
+    word_lis1 = word_space1.getElementsByTagName("span");
+    word_lis2 = word_space2.getElementsByTagName("span");
+    var word_count = 0;
+    var is_show = false;
+    function typer(){
+        if (is_show){
+            word_lis1[word_count].className = "active";
+            word_lis2[word_count].className = "active";
+        }
+        else{
+            word_lis1[word_count].className = "";
+            word_lis2[word_count].className = "";
+        }
+        word_count++;
+        if (word_count>=word_lis1.length){
+            word_count = 0;
+            is_show = (is_show===false)
+        }
+    }
+    var show_typer = setInterval(typer, 100);
+
     set_moon();
     if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
         document.getElementById('logo').className = "headerLogo_fire";

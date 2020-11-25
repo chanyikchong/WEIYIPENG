@@ -222,8 +222,6 @@
 @media(max-width: 600px){
 	.main-window{
 		position: relative;
-		/* left: 25px;
-		width: calc(100% - 50px); */
 		left: 50%;
 		transform: translateX(-50%);
 		width: 95%;

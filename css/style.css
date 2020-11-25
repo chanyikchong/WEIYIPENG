@@ -75,7 +75,7 @@ html, body{
 }
 .small_sidenav span{
 	/* background: linear-gradient(90deg, #e82829, #e36ca5,#4a9dd6, #e36ca5); */
-	background: url("../img/word_bg.png");
+	background: url("../img/word_bg_small.png");
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;

@@ -209,7 +209,7 @@ html, body{
 }
 .abstract{
 	position: absolute;
-    top: 68px;
+    /* top: 68px; */
     left: 50%;
     transform: translateX(-50%);
     color: #5F5F5F;
@@ -322,5 +322,15 @@ html, body{
 	.footerSocials-home a{
 		width: 35px;
 		height: 35px;
+	}
+}
+@media(max-height: 660px){
+	.image-container{
+		height: 56%;
+		width: auto;
+	}
+	.image-container img{
+		width: auto;
+		height: 100%;
 	}
 }

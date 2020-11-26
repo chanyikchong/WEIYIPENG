@@ -201,6 +201,9 @@
 .phone-about{
 	display: none;
 }
+.window-about{
+	height: 600px;
+}
 
 @media(max-width: 1070px){
 	
@@ -239,5 +242,10 @@
 	.footerSocials a{
 		width: 35px;
 		height: 35px;
+	}
+}
+@media(max-height: 715px){
+	.socialWrapper{
+		position: relative;
 	}
 }

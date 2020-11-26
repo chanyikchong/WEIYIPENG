@@ -101,11 +101,4 @@ window.onload=function slideshow() {
     var show_typer = setInterval(typer, 100);
 
     set_moon();
-    // if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
-    //     document.getElementById('logo').className = "headerLogo_fire";
-    // }
-    // // else if (check_browser() === 'Chrome' || check_browser() === "Edge")
-    // else {
-    //     document.getElementById('logo').className = "headerLogo_chrom";
-    // }
 }

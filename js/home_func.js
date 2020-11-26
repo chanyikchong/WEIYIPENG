@@ -97,13 +97,6 @@ window.onload=function slideshow() {
     var imgs=container.getElementsByTagName("img")
     set_moon()
     current=0;
-
-    // if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
-    //     document.getElementById('logo').className = "headerLogo_fire";
-    // }
-    // else {
-    //     document.getElementById('logo').className = "headerLogo_chrom";
-    // }
   
     function slideOff() {
         imgs[current].className=""; 

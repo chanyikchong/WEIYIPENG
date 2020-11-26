@@ -82,7 +82,7 @@ window.onload=function slideshow() {
     word_lis1 = word_space1.getElementsByTagName("span");
     word_lis2 = word_space2.getElementsByTagName("span");
     var word_count = 0;
-    var is_show = false;
+    var is_show = true;
     function typer(){
         if (is_show){
             word_lis1[word_count].className = "active";

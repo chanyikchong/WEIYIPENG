@@ -132,7 +132,7 @@ window.onload=function slideshow() {
     var word_space = document.getElementById("abstract");
     word_lis = word_space.getElementsByTagName("span");
     var word_count = 0;
-    var is_show = false;
+    var is_show = true;
     function typer(){
         if (is_show){
             word_lis[word_count].className = "active";

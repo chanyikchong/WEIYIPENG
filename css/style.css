@@ -330,10 +330,10 @@ html, body{
     transition: 0.8s;
 	letter-spacing: 0.8px;
 	color: white;
-	opacity: 0;
+	opacity: 1;
 }
 .abstract span.active{
-	opacity: 1;
+	opacity: 0;
 }
 .socialWrapper-home {
 	bottom: 35px;

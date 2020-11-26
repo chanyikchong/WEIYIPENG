@@ -186,17 +186,17 @@
 }
 #cv1 span{
 	transition: 0.8s;
-	opacity: 0;
+	opacity: 1;
 }
 #cv1 span.active{
-	opacity: 1;
+	opacity: 0;
 }
 #cv2 span{
 	transition: 0.8s;
-	opacity: 0;
+	opacity: 1;
 }
 #cv2 span.active{
-	opacity: 1;
+	opacity: 0;
 }
 .phone-about{
 	display: none;

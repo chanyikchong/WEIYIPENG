@@ -1,16 +1,11 @@
 .window-container{
     position: absolute;
     top: 100px;
-    /* left: calc(4% + 125px); */
     left: 180px;
-    /* width: calc(100% - (4% + 125px) - 50px);  */
     width: calc(100% - 180px - 50px); /*margin-right 50px*/
 }
 .AlbumYear{
     position: relative;
-    /* top: 80px;
-    left: calc(4% + 125px);
-    width: calc(100% - (4% + 125px) - 50px); */
     width: 100%;
     height: 50px;
     text-align: center;
@@ -45,27 +40,18 @@
 .timelineWrapper{
     position: relative;
     width: 100%;
-    /* top: 130px;
-    left: calc(4% + 125px);
-    width: calc(100% - (4% + 125px) - 50px); */
     height: auto;
     padding-bottom: 50px;
 }
 .timelineWrapper2{
     position: relative;
     width: 100%;
-    /* top: 130px;
-    left: calc(4% + 125px);
-    width: calc(100% - (4% + 125px) - 50px); */
     height: auto;
     padding-bottom: 50px;
 }
 .timelineWrapper3{
     position: relative;
     width: 100%;
-    /* top: 130px;
-    left: calc(4% + 125px);
-    width: calc(100% - (4% + 125px) - 50px); */
     height: auto;
     padding-bottom: 50px;
 }
@@ -74,7 +60,6 @@
     display: block;
 	width: 16.667%;
 	padding: 0 15px;
-	/* margin: 30px 0; */
 	text-align: center;
 	opacity: 1;
     position: absolute;

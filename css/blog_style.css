@@ -2,11 +2,8 @@
     position: relative;
     width: 73%;
     float: left;
-    /* height: auto;
-    height: 100%; */
     left: 50%;
     transform: translateX(-50%);
-    /* background-color: tomato; */
 }
 
 .main-passage{
@@ -16,13 +13,10 @@
     transform: translateX(-50%);
     text-align: center;
     width: 85%;
-    /* background-color: turquoise; */
     color: white;
     display: block;
 }
-/* .main-passage div{
-    width: 80%;
-} */
+
 .main-passage h1{
     font-family: Noto Sans SC;
     font-weight: normal;
@@ -64,7 +58,6 @@
 }
 
 .blog-cover{
-    /* position: fixed; */
     text-align: center;
 }
 .cover{
@@ -76,7 +69,6 @@
 }
 .cover img{
     width: 100%;
-    /* left: 50%; */
 }
 .blog-bar-small{
     position: relative;
@@ -94,7 +86,6 @@
 
 .blog-cover-small img{
     width: 25%;
-    /* margin-left: 30px; */
 }
 .swith_btn{
     cursor: pointer;
@@ -105,13 +96,8 @@
 .vlog-material{
     left: 50%;
     top: 50%;
-    /* width: 68%;
-    height: 85%; */
     transform: translate(-50%, -50%);
     position: absolute;
-    /* width: 90%; */
-    /* float: left; */
-    /* background-color: tomato; */
     
 }
 

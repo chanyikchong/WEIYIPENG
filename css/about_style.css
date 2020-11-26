@@ -19,7 +19,6 @@
 	-webkit-mask-image: url(../img/WP442.svg);
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center center;
-	/* text-indent: -9999px */
 }
 .W-Wrapper:before{
 	border-radius: 50%;
@@ -31,7 +30,6 @@
 	top: 0;
 	left: 0;
 	transition: all 1s linear;
-	/* background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829); */
 	background: url(../img/color.png);
 	background-size: 100% 100%;
 	background-position: 0 0;
@@ -59,7 +57,6 @@
 	-webkit-mask-image: url(../img/WP442.svg);
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center center;
-	/* text-indent: -9999px */
 }
 .W-Wrapper-window:before{
 	border-radius: 50%;
@@ -71,7 +68,6 @@
 	top: 0;
 	left: 0;
 	transition: all 1s linear;
-	/* background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829); */
 	background: url(../img/color.png);
 	background-size: 100% 100%;
 	background-position: 0 0;
@@ -109,7 +105,6 @@
 }
 .personal{
 	position: relative;
-	/* padding-right: 10px; */
 	display: block;
     color: white;
 	font-family: Adobe Garamond Pro;
@@ -120,7 +115,6 @@
 	bottom: 35px;
 	position: absolute;
 	width: 100%;
-	/* height: auto; */
 	transition: 0.8s;
 }
 

@@ -4,7 +4,6 @@
     left: 50%;
     transform: translateX(-50%);
     color: #5F5F5F;
-    /* background-color: tomato; */
     z-index: 2;
 }
 .port_navi span{
@@ -23,12 +22,8 @@
 .CardWindow{
     position: absolute;
     top: 100px;
-    /* left: calc(4% + 125px); */
     left: 180px;
-    /* margin-right: 50px; */
     width: calc(100% - 180px - 50px);
-    /* left: -webkit-calc(4% + 105px); */
-    /* background-color: turquoise; */
 }
 .CardWrapper {
 	display: flex;
@@ -36,7 +31,6 @@
 	flex-wrap: wrap;
 	align-items: stretch;
     justify-content: flex-start;
-    /* background-color: tomato; */
 }
 .CardBox{
     position: relative;

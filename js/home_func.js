@@ -98,12 +98,12 @@ window.onload=function slideshow() {
     set_moon()
     current=0;
 
-    if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
-        document.getElementById('logo').className = "headerLogo_fire";
-    }
-    else {
-        document.getElementById('logo').className = "headerLogo_chrom";
-    }
+    // if (check_browser() === 'Firefox' || check_browser() === 'Safari'){
+    //     document.getElementById('logo').className = "headerLogo_fire";
+    // }
+    // else {
+    //     document.getElementById('logo').className = "headerLogo_chrom";
+    // }
   
     function slideOff() {
         imgs[current].className=""; 

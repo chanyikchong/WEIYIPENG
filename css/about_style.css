@@ -105,7 +105,7 @@
 	float: left;
 	position: relative;
 	width: 50%;
-	height: 600px;
+	height: 680px;
 }
 .personal{
 	position: relative;
@@ -202,7 +202,7 @@
 	display: none;
 }
 .window-about{
-	height: 600px;
+	height: 700px;
 }
 
 @media(max-width: 1070px){
@@ -244,8 +244,9 @@
 		height: 35px;
 	}
 }
-@media(max-height: 715px){
+@media (max-width:1200px), (max-height: 800px){
 	.socialWrapper{
 		position: relative;
+		
 	}
 }

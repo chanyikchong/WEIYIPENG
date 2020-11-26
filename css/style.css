@@ -11,7 +11,7 @@ html, body{
 }
 .sidenav_div1{
   margin: auto;
-  width: 80px; /*95*/
+  width: 90px; /*95*/
   height: 100%;
   position: fixed;
   z-index:98;

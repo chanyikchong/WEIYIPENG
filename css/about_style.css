@@ -129,7 +129,7 @@
 
 .footerSocials {
 	list-style: none;
-	margin: 0px auto 0px;
+	margin: 8px auto 0px;
 	padding: 0;
 	text-align: center;
 }
@@ -181,7 +181,7 @@
     font-weight: normal;
 	font-size: 8px;
 	position: absolute;
-	margin-top: -15px;
+	margin-top: -10px;
 }
 .copy-right a{
 	text-decoration: none;

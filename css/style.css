@@ -228,15 +228,17 @@ html, body{
 	opacity: 0;
 }
 .socialWrapper-home {
-	bottom: 35px;
-	position: absolute;
+	bottom: 3px;
+	height: 58px;
+	position: fixed;
 	width: 100%;
 	transition: 0.8s;
+	background-color: rgb(29, 25, 25);
 }
 
 .footerSocials-home {
 	list-style: none;
-	margin: 17px auto 0px;
+	margin: 0px auto 0px;
 	padding: 0;
 	text-align: center;
 }
@@ -324,7 +326,7 @@ html, body{
 		height: 35px;
 	}
 }
-@media(max-height: 660px){
+/* @media(max-height: 660px){
 	.image-container{
 		height: 56%;
 		width: auto;
@@ -333,4 +335,4 @@ html, body{
 		width: auto;
 		height: 100%;
 	}
-}
+} */

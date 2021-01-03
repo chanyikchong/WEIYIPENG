@@ -1,6 +1,6 @@
 .blog-material{
     position: relative;
-    width: 73%;
+    width: 65%;
     float: left;
     left: 50%;
     transform: translateX(-50%);
@@ -122,6 +122,11 @@
 .youtube{
     width: 840px; 
     height: 472.5px;
+}
+@media(max-width: 900px){
+	.spotify-div iframe{
+		width: 75%;
+	}
 }
 @media(min-width:1200px){
     .blog-bar{

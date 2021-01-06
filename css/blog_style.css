@@ -123,11 +123,6 @@
     width: 840px; 
     height: 472.5px;
 }
-@media(max-width: 900px){
-	.spotify-div iframe{
-		width: 75%;
-	}
-}
 @media(min-width:1200px){
     .blog-bar{
         right: 5%;

@@ -16,6 +16,7 @@
 	width: 68px;
 	height: 68px;
 	left: 50%;
+	top:-13px;
 	transform: translateX(-50%);
 	background: url(../img/WP442.svg) no-repeat center center;
 	background-size: contain;

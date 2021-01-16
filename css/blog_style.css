@@ -123,6 +123,94 @@
     width: 840px; 
     height: 472.5px;
 }
+
+.colorBarRoll{
+	position: relative;
+	margin-top: 0;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 3px;
+	z-index: 10;
+	background: linear-gradient(270deg, #e82829, #e36ca5, #4a9dd6, #7ebf42, #e4e11d, #e82829);
+}
+.socialWrapper {
+    border-top: 10px solid transparent;
+	bottom: 0px;
+	height: 4px;
+	position: fixed;
+	width: 100%;
+	transition: 0.8s;
+	background-color: rgb(29, 25, 25);
+    z-index: 45;
+    background-clip: padding-box;
+}
+.socialWrapper:hover{
+    height: 68px;
+}
+
+.footerSocials {
+	list-style: none;
+	margin: 8px auto 0px;
+	padding: 0;
+	text-align: center;
+}
+
+.footerSocials li {
+	display: inline-block
+}
+
+.footerSocials a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 4px;
+	background-repeat: no-repeat;
+	background-size: 24px auto;
+	background-position: center center;
+	cursor: pointer;
+}
+
+.footerSocials span {
+	visibility: hidden;
+	position: absolute
+}
+
+.footerSocials svg {
+	width: 20px;
+	margin-top: 9px
+}
+
+.footerSocials path {
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+.footerSocials a:hover path {
+	fill: #BBBBBC
+}
+
+.footerSocials.menuSocials a:hover path {
+	fill: #BBBBBC
+}
+.copy-right{
+	/* bottom: -35px; */
+	width: 100%;
+	height: auto;
+	color: #636364;
+	text-align: center;
+	letter-spacing: 0.8px;
+	font-family: Adobe Garamond Pro;
+    font-weight: normal;
+	font-size: 8px;
+	position: absolute;
+	margin-top: -10px;
+}
+.copy-right a{
+	text-decoration: none;
+	color: #636364;
+}
+
+
 @media(min-width:1200px){
     .blog-bar{
         right: 5%;

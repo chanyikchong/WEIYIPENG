@@ -222,4 +222,7 @@
     .AlbumYear h2:after{
         width: 35%;
     }
+    .socialWrapper{
+        display:none
+    }
 }

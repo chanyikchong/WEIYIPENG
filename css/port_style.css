@@ -182,6 +182,9 @@
     .CardBox{
         width: 50%;
     }
+    .socialWrapper{
+        display: none
+    }
 }
 @media(max-width: 321px){
     .port_navi{

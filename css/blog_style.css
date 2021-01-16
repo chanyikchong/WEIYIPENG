@@ -258,14 +258,14 @@
 }
 @media(max-width: 430px){
     .youtube{
-        width: 387px;
-        height: 216px;
+        width: 367px;
+        height: 196px;
     }
 }
 @media(max-width: 376px){
     .youtube{
-        width: 344px;
-        height: 192px;
+        width: 324px;
+        height: 172px;
     }
 }
 @media(max-width: 321px){

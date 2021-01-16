@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./css/blog_style.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/about_style.css">
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="./js/about_func.js"></script>
 </head>
 <body>
@@ -59,6 +60,12 @@
         </div>
         <!-- <div class="spotify-div">
             <iframe src="https://open.spotify.com/embed/playlist/0XYtgsPcx9DGZCUZBZ2OjU" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div> -->
+        <!-- <div class="heart-btn">
+            <div class="content">
+              <div class="heart"></div>
+              <div class="numb"></div>
+            </div>
         </div> -->
     </div>
     <div class="small_menu">
@@ -116,14 +123,14 @@
                         I remember how the skies inched toward dawn, how the snow rained down and silenced the city, how the darkness was 
                         ribboned with stars and traffic lights, how you looked into my eyes… how there was a spark to these nights that 
                         touched something inside of me.<br>
-                        It stayed for a bit. <br>
-                        Then I lost sight of you.<br>
+                        It stayed for a bit. Then I lost sight of you.<br>
                         <br>
                         Until threads of sunlight attempt to sneak through the window again. <br>
                         I watch as the birds fly by. I feel the wind in my face. <br>
                         The ocean awaits.<br>
                         <br>
                         The emotion breaks back through.<br>
+                        <br>
                         <br>
                         I never fully understood how 42 became the answer to life, the universe and everything. But I will always believe 
                         that one day we will lie down in the breezy deep blue night, the stars are bigger brighter more beautiful than we’ve 
@@ -179,14 +186,14 @@
                             I remember how the skies inched toward dawn, how the snow rained down and silenced the city, how the darkness was 
                             ribboned with stars and traffic lights, how you looked into my eyes… how there was a spark to these nights that 
                             touched something inside of me.<br>
-                            It stayed for a bit. <br>
-                            Then I lost sight of you.<br>
+                            It stayed for a bit. Then I lost sight of you.<br>
                             <br>
                             Until threads of sunlight attempt to sneak through the window again. <br>
                             I watch as the birds fly by. I feel the wind in my face. <br>
                             The ocean awaits.<br>
                             <br>
                             The emotion breaks back through.<br>
+                            <br>
                             <br>
                             I never fully understood how 42 became the answer to life, the universe and everything. But I will always believe 
                             that one day we will lie down in the breezy deep blue night, the stars are bigger brighter more beautiful than we’ve 
@@ -325,5 +332,14 @@
         </div>
         
     </div>
+    <script>
+        $(document).ready(function(){
+          $('.heart').click(function(){
+            // $('.content').toggleClass("heart-active")
+            $('.numb').toggleClass("heart-active")
+            $('.heart').toggleClass("heart-active")
+          });
+        });
+      </script>
 </body>
 </html>

@@ -258,30 +258,22 @@
 	}
 } */
 
-
-
-.heart-btn{
+/* .heart-btn{
 	position: fixed;
 	bottom: 70px;
-	/* top: 100%; */
 	left: 100px;
-	/* transform: translate(-50%,-50%); */
 	z-index: 50;
 	width: 100px;
 	height: 100px;
 	background-color: tomato;
-	/* cursor: pointer; */
   }
 .content{
-/* padding: 13px 16px; */
-/* left: 40px; */
 display: flex;
 border: 2px solid #eae2e1;
 border-radius: 5px;
 cursor: pointer;
 }
 .heart-active{
-/* border-color: #f9b9c4; */
 background: transparent;
 }
 .heart{
@@ -298,7 +290,6 @@ z-index: 1;
 cursor: pointer;
 }
 .numb{
-	/* left: 50px; */
 	z-index: 45;
 }
 .numb:before{
@@ -306,10 +297,8 @@ content: '12';
 font-size: 16px;
 margin-left: 11px;
 font-weight: 600;
-/* color: #9C9496; */
 color:#000;
 font-family: sans-serif;
-/* z-index: 50; */
 }
 .numb.heart-active:before{
 content: '13';
@@ -326,4 +315,34 @@ background-position: right;
 100%{
 	background-position: right;
 }
+} */
+
+.like_icon{
+	position: fixed;
+	bottom: 100px;
+	left: 50px;
+	z-index: 50;
+}
+.like_icon span{
+	position: fixed;
+	left:60px;
+	bottom: 74px;
+	color: #8ff805;
+	cursor: pointer;
+	z-index: 1;
+}
+.like_icon #like_edge{
+	position: fixed;
+	fill: #BBBBBC;
+	cursor: pointer;
+}
+.like_icon #like_fill{
+	position: fixed;
+	fill: transparent;
+	cursor: pointer;
+	transition: 0.5s;
+	z-index: 2;
+}
+.like_icon #like_fill:hover{
+	fill:  #BBBBBC;
 }

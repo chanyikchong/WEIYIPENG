@@ -325,7 +325,7 @@ background-position: right;
 }
 .like_icon span{
 	position: fixed;
-	left:60px;
+	left:64px;
 	bottom: 74px;
 	color: #8ff805;
 	cursor: pointer;
@@ -334,15 +334,18 @@ background-position: right;
 .like_icon #like_edge{
 	position: fixed;
 	fill: #BBBBBC;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
-.like_icon #like_fill{
+.like_fill{
 	position: fixed;
 	fill: transparent;
-	cursor: pointer;
+	/* cursor: pointer; */
 	transition: 0.5s;
 	z-index: 2;
 }
-.like_icon #like_fill:hover{
-	fill:  #BBBBBC;
+.like_fill:hover{
+	fill:  #bcbbbc;
+}
+.like_fill.active{
+	fill: orchid;
 }

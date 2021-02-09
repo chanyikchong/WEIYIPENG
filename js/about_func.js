@@ -1,4 +1,5 @@
 var check_menu_bar = false;
+// localStorage.setItem('like_count', Number(0));
 function openNav() {
     if (check_menu_bar){
         document.getElementById("mySidenav").style.height = "0"; //140px
@@ -76,7 +77,26 @@ function set_moon(){
     lis[num].className['baseVal'] += 'active';
 }
 
+function click_like(){
+    // var like_btn = document.getElementById('like_change');
+    var like_btn = document.getElementById('fill_like')
+    var like_count = document.getElementById('like_count')
+    if (like_btn.className['baseVal'].includes('active')){
+        like_btn.className['baseVal'] = 'like_fill';
+        like_count.style.zIndex = 1;
+        localStorage.like_count = Number(localStorage.like_count) - 1
+    }
+    else{
+        like_btn.className['baseVal'] += " active";
+        like_count.style.zIndex = 3; 
+        localStorage.like_count = Number(localStorage.like_count) + 1;
+    }
+    like_count.innerHTML = localStorage.like_count
+}
+
 window.onload=function slideshow() {
+    var like_count = document.getElementById('like_count')
+    like_count.innerHTML = Number(localStorage.like_count)
     var word_space1 = document.getElementById("cv1");
     var word_space2 = document.getElementById("cv2");
     word_lis1 = word_space1.getElementsByTagName("span");

@@ -1,5 +1,5 @@
 var check_menu_bar = false;
-// localStorage.setItem('like_count', Number(0));
+localStorage.setItem('like_count', Number(0));
 function openNav() {
     if (check_menu_bar){
         document.getElementById("mySidenav").style.height = "0"; //140px

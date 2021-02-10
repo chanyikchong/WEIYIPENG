@@ -1,5 +1,5 @@
 var check_menu_bar = false;
-localStorage.setItem('like_count', Number(0));
+// localStorage.setItem('like_count', Number(0));
 function openNav() {
     if (check_menu_bar){
         document.getElementById("mySidenav").style.height = "0"; //140px
@@ -95,6 +95,10 @@ function click_like(){
 }
 
 window.onload=function slideshow() {
+    if (localStorage.like_count){
+        localStorage.like_count = localStorage.like_count};
+    else{
+        localStorage.like_count = 1;}
     var like_count = document.getElementById('like_count');
     like_count.innerHTML = Number(localStorage.like_count);
     var word_space1 = document.getElementById("cv1");

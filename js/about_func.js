@@ -96,7 +96,7 @@ function click_like(){
 
 window.onload=function slideshow() {
     if (localStorage.like_count){
-        localStorage.like_count = localStorage.like_count};
+        localStorage.like_count = localStorage.like_count;}
     else{
         localStorage.like_count = 0;}
     var like_count = document.getElementById('like_count');

@@ -81,7 +81,6 @@ function click_like(){
     // var like_btn = document.getElementById('like_change');
     var like_btn = document.getElementById('fill_like');
     var like_count = document.getElementById('like_count');
-    window.alert('明天有人打电话来不要不接噢！！')
     if (like_btn.className['baseVal'].includes('active')){
         like_btn.className['baseVal'] = 'like_fill';
         like_count.style.zIndex = 1;
